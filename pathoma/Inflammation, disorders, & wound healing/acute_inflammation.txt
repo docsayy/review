@@ -1,0 +1,45 @@
+Inflammation is the process by which immune cells and plasma proteins exit blood vessels into tissue.
+
+Acute inflammation is defined by the presence of neutrophils in tissue.
+
+Acute inflammation arises in response to infection or necrosis.
+
+Necrosis is always followed by acute inflammation.
+
+The goal of acute inflammation is to clear pathogens or necrotic debris.
+
+Acute inflammation is part of innate immunity.
+
+Toll-like receptors recognize pathogen-associated molecular patterns.
+
+Toll-like receptors also recognize damage-associated molecular patterns.
+
+TLR-4 on macrophages recognizes lipopolysaccharide from gram-negative bacteria.
+
+NF-κB is the master regulator that activates acute inflammation.
+
+Macrophages release IL-1 and TNF to induce fever.
+
+Cyclooxygenase increases prostaglandin E2 in the hypothalamus to raise body temperature.
+
+Histamine causes vasodilation and increased vascular permeability.
+
+Leukotrienes cause bronchoconstriction and increased vascular permeability.
+
+LTB4 attracts and activates neutrophils.
+
+C5a attracts neutrophils.
+
+IL-8 attracts neutrophils.
+
+Bacterial products attract neutrophils.
+
+Bradykinin causes pain and vasodilation.
+
+PGE2 causes pain and fever.
+
+Rubor and calor result from vasodilation.
+
+Tumor (swelling) results from increased vascular permeability.
+
+Dolor (pain) results from bradykinin and PGE2.
