@@ -1,0 +1,17 @@
+Gliomas are the most common primary brain tumors.
+
+Astrocytoma is a tumor of astrocytes.
+
+Glioblastoma is the most aggressive astrocytoma.
+
+Glioblastoma shows necrosis and microvascular proliferation.
+
+Oligodendroglioma is associated with 1p/19q co-deletion.
+
+Meningioma arises from arachnoid cells.
+
+Meningioma is usually benign and slow-growing.
+
+Medulloblastoma is a malignant pediatric cerebellar tumor.
+
+Primary CNS lymphoma is associated with EBV in immunocompromised patients.
