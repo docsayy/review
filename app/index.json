@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:20:25.144Z",
+  "generatedAt": "2026-01-22T19:20:44.751Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -305,6 +305,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Gastrointestinal/esophagus.txt"
+          ],
+          "images": []
+        }
+      },
+      "neuroendocrine": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Gastrointestinal/neuroendocrine.txt"
           ],
           "images": []
         }
