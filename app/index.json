@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:22:07.233Z",
+  "generatedAt": "2026-01-22T20:22:21.769Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -1141,6 +1141,16 @@
       }
     },
     "Skin": {
+      "inflammatory_skin": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Skin/inflammatory_skin.txt"
+          ],
+          "images": []
+        }
+      },
       "skin_structure": {
         "sources": {
           "quick": [],
