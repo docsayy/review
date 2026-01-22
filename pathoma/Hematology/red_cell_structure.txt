@@ -1,0 +1,13 @@
+Red blood cells are biconcave discs that lack nuclei.
+
+Red blood cells contain hemoglobin for oxygen transport.
+
+Hemoglobin is composed of heme and globin chains.
+
+Heme contains iron in the ferrous state.
+
+Globin chains are produced in ribosomes of erythroid precursors.
+
+Erythropoietin stimulates red blood cell production.
+
+Erythropoietin is produced by the kidney in response to hypoxia.
