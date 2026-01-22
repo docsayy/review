@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:00:23.971Z",
+  "generatedAt": "2026-01-22T20:17:28.066Z",
   "systems": {
     "Cardiovascular": {
       "aneurysm_dissection": {
@@ -663,6 +663,18 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Inflammation, disorders, & wound healing/phagocytosis.txt"
+          ],
+          "images": []
+        }
+      }
+    },
+    "Musculoskeletal": {
+      "bone": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Musculoskeletal/bone.txt"
           ],
           "images": []
         }
