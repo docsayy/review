@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:36:56.961Z",
+  "generatedAt": "2026-01-22T19:37:10.294Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -889,6 +889,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Reproductive/testicular_tumors.txt"
+          ],
+          "images": []
+        }
+      },
+      "testis": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Reproductive/testis.txt"
           ],
           "images": []
         }
