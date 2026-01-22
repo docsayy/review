@@ -1,11 +1,15 @@
-Pneumonia is infection of lung parenchyma.
+Pneumonia is infection of the lung parenchyma.
 
 Lobar pneumonia affects an entire lobe.
 
-Bronchopneumonia affects patchy lung areas.
+Bronchopneumonia produces patchy lung involvement.
 
-Aspiration pneumonia affects dependent lung regions.
+Aspiration pneumonia affects dependent lung segments.
 
-Tuberculosis causes caseating granulomas.
+Streptococcus pneumoniae is a common cause of lobar pneumonia.
 
-Primary TB often involves upper lobes.
+Hospital-acquired pneumonia often involves gram-negative bacteria.
+
+Viral pneumonia causes interstitial inflammation.
+
+Mycoplasma pneumonia causes atypical pneumonia.
