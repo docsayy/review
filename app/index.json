@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:13:10.653Z",
+  "generatedAt": "2026-01-22T19:13:39.938Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -619,12 +619,12 @@
           "images": []
         }
       },
-      "obstructive_lung": {
+      "obstructive_lung_disease": {
         "sources": {
           "quick": [],
           "firstaid": [],
           "pathoma": [
-            "pathoma/Respiratory/obstructive_lung.txt"
+            "pathoma/Respiratory/obstructive_lung_disease.txt"
           ],
           "images": []
         }
