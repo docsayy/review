@@ -1,11 +1,21 @@
-Aneurysm is localized dilation of a blood vessel.
+Aneurysm is localized dilation of a blood vessel due to wall weakness.
 
-Atherosclerosis is the most common cause of aneurysm.
+Atherosclerosis is the most common cause of abdominal aortic aneurysm.
 
-Abdominal aortic aneurysm is common in smokers.
+Abdominal aortic aneurysms are most often infrarenal.
 
-Dissection occurs when blood enters the vessel wall.
+Aortic dissection occurs when blood enters the media through an intimal tear.
 
-Aortic dissection is associated with hypertension.
+Hypertension is the most important risk factor for aortic dissection.
 
-Vasculitis is inflammation of blood vessels.
+Marfan syndrome predisposes to aortic dissection due to cystic medial degeneration.
+
+Temporal arteritis causes headache and jaw claudication.
+
+Temporal arteritis is associated with polymyalgia rheumatica.
+
+Takayasu arteritis affects the aortic arch and major branches.
+
+Polyarteritis nodosa causes transmural necrotizing vasculitis of medium arteries.
+
+Kawasaki disease can cause coronary artery aneurysms in children.
