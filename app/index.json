@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:48:31.810Z",
+  "generatedAt": "2026-01-22T18:48:49.487Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -171,6 +171,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Cardiovascular/valvular_disease.txt"
+          ],
+          "images": []
+        }
+      },
+      "vascular_disorders": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Cardiovascular/vascular_disorders.txt"
           ],
           "images": []
         }
