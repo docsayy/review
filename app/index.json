@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:28:43.383Z",
+  "generatedAt": "2026-01-22T20:29:09.077Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -611,6 +611,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematology/hemolytic_anemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "lymphomas": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/lymphomas.txt"
           ],
           "images": []
         }
