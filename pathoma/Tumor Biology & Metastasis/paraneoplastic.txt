@@ -1,0 +1,11 @@
+Paraneoplastic syndromes are systemic effects of cancer not caused by local tumor invasion.
+
+Small cell lung carcinoma can cause SIADH.
+
+Small cell lung carcinoma can cause Cushing syndrome.
+
+Squamous cell carcinoma of lung can cause hypercalcemia.
+
+Renal cell carcinoma can cause erythropoietin overproduction.
+
+Hepatocellular carcinoma can cause hypoglycemia.
