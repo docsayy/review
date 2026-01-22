@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "generatedAt": "2026-01-22T00:00:00Z",
+  "systems": {
+    "hematology": {
+      "dic_hus_ttp": {
+        "sources": {
+          "quick": [
+            "quick/hematology/dic_hus_ttp.txt",
+            "quick/hematology/dic_hus_ttp2.txt",
+            "quick/hematology/dic_hus_ttp3.txt"
+          ],
+          "firstaid": [
+            "firstaid/hematology/dic_hus_ttp.txt"
+          ],
+          "pathoma": [
+            "pathoma/hematology/dic_hus_ttp.txt"
+          ],
+          "images": [
+            "images/hematology/dic_hus_ttp.jpg",
+            "images/hematology/dic_hus_ttp2.jpg"
+          ]
+        }
+      }
+    }
+  }
+}
