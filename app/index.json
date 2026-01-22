@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:00:11.846Z",
+  "generatedAt": "2026-01-22T20:00:23.971Z",
   "systems": {
     "Cardiovascular": {
       "aneurysm_dissection": {
@@ -193,6 +193,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Endocrine/adrenal_medulla.txt"
+          ],
+          "images": []
+        }
+      },
+      "pancreatic_endocrine": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Endocrine/pancreatic_endocrine.txt"
           ],
           "images": []
         }
