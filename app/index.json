@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:48:49.487Z",
+  "generatedAt": "2026-01-22T18:49:32.604Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -543,6 +543,18 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Neoplasia/radiation.txt"
+          ],
+          "images": []
+        }
+      }
+    },
+    "Respiratory": {
+      "airway_disease": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Respiratory/airway_disease.txt"
           ],
           "images": []
         }
