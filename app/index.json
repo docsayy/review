@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:35:47.789Z",
+  "generatedAt": "2026-01-22T18:36:04.265Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -173,6 +173,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hemodynamic Disorders/edema.txt"
+          ],
+          "images": []
+        }
+      },
+      "embolism": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hemodynamic Disorders/embolism.txt"
           ],
           "images": []
         }
