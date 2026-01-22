@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:13:39.938Z",
+  "generatedAt": "2026-01-22T19:14:03.913Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -639,12 +639,12 @@
           "images": []
         }
       },
-      "restrictive_lung": {
+      "restrictive_lung_disease": {
         "sources": {
           "quick": [],
           "firstaid": [],
           "pathoma": [
-            "pathoma/Respiratory/restrictive_lung.txt"
+            "pathoma/Respiratory/restrictive_lung_disease.txt"
           ],
           "images": []
         }
