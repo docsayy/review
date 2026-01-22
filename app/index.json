@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:22:32.446Z",
+  "generatedAt": "2026-01-22T20:22:45.569Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -1147,6 +1147,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Skin/bullous_disorders.txt"
+          ],
+          "images": []
+        }
+      },
+      "infectious_skin": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Skin/infectious_skin.txt"
           ],
           "images": []
         }
