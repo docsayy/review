@@ -1,0 +1,21 @@
+Metastasis is spread of tumor cells to distant sites.
+
+Metastasis is the most reliable indicator of malignancy.
+
+Tumor cells lose adhesion molecules to detach from primary mass.
+
+E-cadherin loss promotes tumor cell detachment.
+
+Tumor cells degrade extracellular matrix using proteases.
+
+Tumor cells enter blood vessels by intravasation.
+
+Circulating tumor cells evade immune destruction.
+
+Tumor cells exit vessels by extravasation.
+
+Metastatic tumors grow at distant organs.
+
+Carcinomas spread primarily via lymphatics.
+
+Sarcomas spread primarily via bloodstream.
