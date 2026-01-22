@@ -1,7 +1,295 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:57:23.388Z",
+  "generatedAt": "2026-01-22T20:57:44.188Z",
   "systems": {
+    "Hematology": {
+      "chemo_toxicities": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/chemo_toxicities.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "coagulation": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/coagulation.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "langerhans_cell_histiocytosis": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/langerhans_cell_histiocytosis.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "leukemias": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/leukemias.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "lymphomas": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/lymphomas.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/lymphomas.txt"
+          ],
+          "images": []
+        }
+      },
+      "macrocytic_anemia": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/macrocytic_anemia.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "marrow_failure_aplasia": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/marrow_failure_aplasia.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "microcytic_anemia": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/microcytic_anemia.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "myeloproliferative": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/myeloproliferative.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/myeloproliferative.txt"
+          ],
+          "images": []
+        }
+      },
+      "neutropenia": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/neutropenia.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "normocytic_anemia": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/normocytic_anemia.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "plasma_cell_disorders": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/plasma_cell_disorders.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/plasma_cell_disorders.txt"
+          ],
+          "images": []
+        }
+      },
+      "platelets_itp": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/platelets_itp.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "polycythemia": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/polycythemia.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "remaining_heme_onc": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/remaining_heme_onc.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "thrombophilia": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/thrombophilia.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "tma_ttp_hus": {
+        "sources": {
+          "quick": [
+            "quick/Hematology/tma_ttp_hus.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "acute_leukemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/acute_leukemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "anemia_general": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/anemia_general.txt"
+          ],
+          "images": []
+        }
+      },
+      "chronic_leukemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/chronic_leukemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "coagulation_disorders": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/coagulation_disorders.txt"
+          ],
+          "images": []
+        }
+      },
+      "hemolytic_anemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/hemolytic_anemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "macrocytic_anemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/macrocytic_anemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "microcytic_anemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/microcytic_anemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "normocytic_anemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/normocytic_anemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "platelet_disorders": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/platelet_disorders.txt"
+          ],
+          "images": []
+        }
+      },
+      "red_cell_structure": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/red_cell_structure.txt"
+          ],
+          "images": []
+        }
+      },
+      "thrombotic_microangiopathy": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/thrombotic_microangiopathy.txt"
+          ],
+          "images": []
+        }
+      }
+    },
     "CNS": {
       "cerebrovascular": {
         "sources": {
@@ -559,148 +847,6 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Genetic Disorders/trinucleotide_disorders.txt"
-          ],
-          "images": []
-        }
-      }
-    },
-    "Hematology": {
-      "acute_leukemias": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/acute_leukemias.txt"
-          ],
-          "images": []
-        }
-      },
-      "anemia_general": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/anemia_general.txt"
-          ],
-          "images": []
-        }
-      },
-      "chronic_leukemias": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/chronic_leukemias.txt"
-          ],
-          "images": []
-        }
-      },
-      "coagulation_disorders": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/coagulation_disorders.txt"
-          ],
-          "images": []
-        }
-      },
-      "hemolytic_anemias": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/hemolytic_anemias.txt"
-          ],
-          "images": []
-        }
-      },
-      "lymphomas": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/lymphomas.txt"
-          ],
-          "images": []
-        }
-      },
-      "macrocytic_anemias": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/macrocytic_anemias.txt"
-          ],
-          "images": []
-        }
-      },
-      "microcytic_anemias": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/microcytic_anemias.txt"
-          ],
-          "images": []
-        }
-      },
-      "myeloproliferative": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/myeloproliferative.txt"
-          ],
-          "images": []
-        }
-      },
-      "normocytic_anemias": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/normocytic_anemias.txt"
-          ],
-          "images": []
-        }
-      },
-      "plasma_cell_disorders": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/plasma_cell_disorders.txt"
-          ],
-          "images": []
-        }
-      },
-      "platelet_disorders": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/platelet_disorders.txt"
-          ],
-          "images": []
-        }
-      },
-      "red_cell_structure": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/red_cell_structure.txt"
-          ],
-          "images": []
-        }
-      },
-      "thrombotic_microangiopathy": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematology/thrombotic_microangiopathy.txt"
           ],
           "images": []
         }
