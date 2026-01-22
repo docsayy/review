@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:26:58.774Z",
+  "generatedAt": "2026-01-22T20:27:21.916Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -627,6 +627,16 @@
           "images": []
         }
       },
+      "coagulation_disorders": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/coagulation_disorders.txt"
+          ],
+          "images": []
+        }
+      },
       "hemolytic_anemias": {
         "sources": {
           "quick": [],
@@ -683,6 +693,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematology/red_cell_structure.txt"
+          ],
+          "images": []
+        }
+      },
+      "thrombotic_microangiopathy": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/thrombotic_microangiopathy.txt"
           ],
           "images": []
         }
