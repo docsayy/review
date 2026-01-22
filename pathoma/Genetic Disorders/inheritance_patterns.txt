@@ -1,0 +1,13 @@
+Autosomal dominant disorders require one mutated allele.
+
+Autosomal recessive disorders require two mutated alleles.
+
+X-linked recessive disorders primarily affect males.
+
+Females can be carriers of X-linked recessive disorders.
+
+Mitochondrial inheritance is passed from mother to all offspring.
+
+New mutations are common in autosomal dominant disorders.
+
+Consanguinity increases autosomal recessive disease risk.
