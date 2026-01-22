@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:25:35.066Z",
+  "generatedAt": "2026-01-22T20:25:45.081Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -617,6 +617,16 @@
       }
     },
     "Hematology": {
+      "anemia_general": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/anemia_general.txt"
+          ],
+          "images": []
+        }
+      },
       "red_cell_structure": {
         "sources": {
           "quick": [],
