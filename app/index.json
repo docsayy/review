@@ -1,25 +1,106 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T00:00:00Z",
+  "generatedAt": "2026-01-22T16:47:38.077Z",
   "systems": {
     "hematology": {
+      "anemia_of_chronic_disease": {
+        "sources": {
+          "quick": [
+            "quick/hematology/anemia_of_chronic_disease.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "coagulation_basics": {
+        "sources": {
+          "quick": [
+            "quick/hematology/coagulation_basics.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
       "dic_hus_ttp": {
         "sources": {
           "quick": [
-            "quick/hematology/dic_hus_ttp.txt",
-            "quick/hematology/dic_hus_ttp2.txt",
-            "quick/hematology/dic_hus_ttp3.txt"
+            "quick/hematology/dic_hus_ttp.txt"
           ],
-          "firstaid": [
-            "firstaid/hematology/dic_hus_ttp.txt"
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "hemophilia_vwd": {
+        "sources": {
+          "quick": [
+            "quick/hematology/hemophilia_vwd.txt"
           ],
-          "pathoma": [
-            "pathoma/hematology/dic_hus_ttp.txt"
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "ida_vs_thalassemia": {
+        "sources": {
+          "quick": [
+            "quick/hematology/ida_vs_thalassemia.txt"
           ],
-          "images": [
-            "images/hematology/dic_hus_ttp.jpg",
-            "images/hematology/dic_hus_ttp2.jpg"
-          ]
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "multiple_myeloma": {
+        "sources": {
+          "quick": [
+            "quick/hematology/multiple_myeloma.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "platelet_disorders": {
+        "sources": {
+          "quick": [
+            "quick/hematology/platelet_disorders.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "polycythemia": {
+        "sources": {
+          "quick": [
+            "quick/hematology/polycythemia.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "sickle_cell": {
+        "sources": {
+          "quick": [
+            "quick/hematology/sickle_cell.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
+        }
+      },
+      "waldenstrom": {
+        "sources": {
+          "quick": [
+            "quick/hematology/waldenstrom.txt"
+          ],
+          "firstaid": [],
+          "pathoma": [],
+          "images": []
         }
       }
     }
