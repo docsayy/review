@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:25:45.081Z",
+  "generatedAt": "2026-01-22T20:26:03.751Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -623,6 +623,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematology/anemia_general.txt"
+          ],
+          "images": []
+        }
+      },
+      "microcytic_anemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/microcytic_anemias.txt"
           ],
           "images": []
         }
