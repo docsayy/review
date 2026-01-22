@@ -1,0 +1,13 @@
+The pancreas has exocrine and endocrine functions.
+
+Acinar cells produce digestive enzymes.
+
+Ductal cells secrete bicarbonate-rich fluid.
+
+Islets of Langerhans contain endocrine cells.
+
+Beta cells produce insulin.
+
+Alpha cells produce glucagon.
+
+Delta cells produce somatostatin.
