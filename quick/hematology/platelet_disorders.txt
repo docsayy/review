@@ -1,0 +1,25 @@
+Immune thrombocytopenic purpura is caused by antibodies against platelet glycoprotein IIb/IIIa.
+
+Platelet count is decreased in immune thrombocytopenic purpura.
+
+Bleeding time is increased in immune thrombocytopenic purpura.
+
+PT and PTT are normal in immune thrombocytopenic purpura.
+
+Typical presentation is a child after viral illness with petechiae.
+
+Treatment is steroids, then IVIG, then splenectomy.
+
+Von Willebrand disease is autosomal dominant.
+
+Von Willebrand factor mediates platelet adhesion.
+
+Bleeding time is increased in von Willebrand disease.
+
+Platelet count is normal in von Willebrand disease.
+
+PT is normal in von Willebrand disease.
+
+PTT may be increased in von Willebrand disease.
+
+Desmopressin increases von Willebrand factor levels.
