@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:33:55.953Z",
+  "generatedAt": "2026-01-22T18:34:29.960Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -285,6 +285,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Neoplasia/oncogenic_viruses.txt"
+          ],
+          "images": []
+        }
+      },
+      "protooncogenes": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Neoplasia/protooncogenes.txt"
           ],
           "images": []
         }
