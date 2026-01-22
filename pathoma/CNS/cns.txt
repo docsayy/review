@@ -1,0 +1,11 @@
+Neurons are the functional cells of the nervous system.
+
+Astrocytes provide structural and metabolic support to neurons.
+
+Oligodendrocytes produce myelin in the central nervous system.
+
+Schwann cells produce myelin in the peripheral nervous system.
+
+Microglia are macrophages of the central nervous system.
+
+The blood–brain barrier is formed by tight junctions between endothelial cells.
