@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:31:37.019Z",
+  "generatedAt": "2026-01-22T18:31:56.665Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -239,6 +239,16 @@
       }
     },
     "Neoplasia": {
+      "benign_vs_malignant": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Neoplasia/benign_vs_malignant.txt"
+          ],
+          "images": []
+        }
+      },
       "neoplasia_basics": {
         "sources": {
           "quick": [],
