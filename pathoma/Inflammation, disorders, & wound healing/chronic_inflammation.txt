@@ -1,0 +1,33 @@
+Chronic inflammation is defined by lymphocyte and macrophage infiltration.
+
+Chronic inflammation occurs with persistent infection, autoimmunity, or foreign material.
+
+T cells mature in the thymus into CD4 or CD8 cells.
+
+CD4 T cells recognize antigen on MHC II.
+
+CD8 T cells recognize antigen on MHC I.
+
+B7 on antigen-presenting cells binds CD28 on CD4 cells for second signal.
+
+CD40 on B cells binds CD40L on CD4 cells for activation.
+
+Activated CD4 TH1 cells secrete IFN-γ.
+
+IFN-γ enhances macrophage killing ability.
+
+Activated CD4 TH2 cells secrete IL-4, IL-5, and IL-10.
+
+IL-4 induces class switching to IgE and IgG.
+
+IL-5 activates eosinophils and induces IgA class switching.
+
+IL-10 suppresses TH1 response.
+
+CD8 T cells kill via perforin and granzyme.
+
+CD8 T cells also kill via Fas-FasL apoptosis.
+
+B cells present antigen to CD4 cells via MHC II.
+
+B cells undergo isotype switching and affinity maturation under TH2 cytokines.
