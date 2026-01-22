@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:10:31.325Z",
+  "generatedAt": "2026-01-22T19:10:59.229Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -131,6 +131,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Cardiovascular/cardiomyopathies.txt"
+          ],
+          "images": []
+        }
+      },
+      "congenital_heart": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Cardiovascular/congenital_heart.txt"
           ],
           "images": []
         }
