@@ -1,0 +1,29 @@
+Carcinogens cause DNA damage.
+
+Aflatoxin causes hepatocellular carcinoma.
+
+Alkylating agents cause leukemia and lymphoma.
+
+Alcohol increases risk of oropharyngeal squamous carcinoma.
+
+Alcohol increases risk of pancreatic carcinoma.
+
+Alcohol increases risk of hepatocellular carcinoma.
+
+Arsenic causes skin squamous carcinoma.
+
+Arsenic causes lung cancer.
+
+Asbestos causes lung carcinoma and mesothelioma.
+
+Cigarette smoking causes lung carcinoma.
+
+Cigarette smoking causes urothelial carcinoma of bladder.
+
+Nitrosamines cause gastric carcinoma.
+
+Vinyl chloride causes angiosarcoma of liver.
+
+Radon exposure causes lung carcinoma.
+
+Polycyclic hydrocarbons are major cigarette carcinogens.
