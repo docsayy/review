@@ -1,0 +1,25 @@
+Cardiovascular disease is the leading cause of adult death.
+
+Cancer is the second leading cause of adult death.
+
+Accidents are the leading cause of childhood death.
+
+Prostate cancer is the most common cancer in men.
+
+Breast cancer is the most common cancer in women.
+
+Lung cancer is the leading cause of cancer death in both sexes.
+
+Colorectal cancer is common in both sexes.
+
+Ovarian and pancreatic cancers present late due to space for silent growth.
+
+Cancer screening aims to detect dysplasia or early carcinoma.
+
+Pap smear screens for cervical dysplasia.
+
+Mammography screens for breast carcinoma.
+
+PSA and DRE screen for prostate carcinoma.
+
+Colonoscopy screens for colorectal carcinoma.
