@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:30:40.685Z",
+  "generatedAt": "2026-01-22T19:30:54.395Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -305,6 +305,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Gastrointestinal/biliary_disease.txt"
+          ],
+          "images": []
+        }
+      },
+      "chronic_pancreatitis": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Gastrointestinal/chronic_pancreatitis.txt"
           ],
           "images": []
         }
