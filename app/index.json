@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:16:17.032Z",
+  "generatedAt": "2026-01-22T19:19:18.525Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -273,6 +273,18 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Cell adaptation, injury & death/wound_healing.txt"
+          ],
+          "images": []
+        }
+      }
+    },
+    "Gastrointestinal": {
+      "esophagus": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Gastrointestinal/esophagus.txt"
           ],
           "images": []
         }
