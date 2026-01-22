@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:24:04.053Z",
+  "generatedAt": "2026-01-22T19:27:39.364Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -305,6 +305,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Gastrointestinal/esophagus.txt"
+          ],
+          "images": []
+        }
+      },
+      "hepatitis": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Gastrointestinal/hepatitis.txt"
           ],
           "images": []
         }
