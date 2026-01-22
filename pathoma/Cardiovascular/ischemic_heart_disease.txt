@@ -1,0 +1,19 @@
+Ischemic heart disease results from reduced coronary blood flow.
+
+Stable angina occurs with exertion and resolves with rest.
+
+Unstable angina occurs at rest and indicates plaque rupture.
+
+Myocardial infarction is irreversible myocardial necrosis.
+
+ST elevation MI indicates full-thickness infarction.
+
+Troponin is the most sensitive marker of myocardial injury.
+
+Coagulative necrosis occurs in myocardial infarction.
+
+Macrophages clear necrotic myocardium after infarction.
+
+Granulation tissue forms during infarct healing.
+
+Scar tissue replaces necrotic myocardium.
