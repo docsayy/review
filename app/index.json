@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:29:24.002Z",
+  "generatedAt": "2026-01-22T20:29:41.526Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -641,6 +641,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematology/microcytic_anemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "myeloproliferative": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/myeloproliferative.txt"
           ],
           "images": []
         }
