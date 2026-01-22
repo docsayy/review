@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:34:10.252Z",
+  "generatedAt": "2026-01-22T19:34:28.043Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -817,6 +817,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Renal/renal_stones.txt"
+          ],
+          "images": []
+        }
+      },
+      "renal_tumors": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Renal/renal_tumors.txt"
           ],
           "images": []
         }
