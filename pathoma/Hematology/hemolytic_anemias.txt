@@ -1,0 +1,23 @@
+Hemolytic anemia is premature destruction of red blood cells.
+
+Extravascular hemolysis occurs in the spleen.
+
+Intravascular hemolysis occurs within blood vessels.
+
+Hereditary spherocytosis is caused by spectrin deficiency.
+
+Hereditary spherocytosis causes splenomegaly and spherocytes.
+
+G6PD deficiency causes oxidative hemolysis.
+
+G6PD deficiency is X-linked recessive.
+
+Sickle cell disease is caused by hemoglobin S.
+
+Hemoglobin S polymerizes under low oxygen conditions.
+
+Sickle cell disease causes vaso-occlusion and pain crises.
+
+Autoimmune hemolytic anemia is caused by antibodies against red cells.
+
+Cold agglutinin disease is mediated by IgM antibodies.
