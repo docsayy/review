@@ -2,8 +2,14 @@ Pulmonary embolism usually arises from deep vein thrombosis.
 
 Pulmonary embolism causes ventilation-perfusion mismatch.
 
-Large emboli cause acute right heart strain.
+Large pulmonary emboli cause acute right heart strain.
+
+Chronic pulmonary emboli can cause pulmonary hypertension.
 
 Pulmonary hypertension causes right ventricular hypertrophy.
 
-Chronic hypoxia causes pulmonary vasoconstriction.
+Chronic hypoxia causes vasoconstriction of pulmonary arteries.
+
+Pulmonary hypertension may lead to cor pulmonale.
+
+Cor pulmonale is right heart failure secondary to lung disease.
