@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:29:31.934Z",
+  "generatedAt": "2026-01-22T18:29:49.530Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -173,6 +173,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Inflammation, disorders, & wound healing/acute_inflammation.txt"
+          ],
+          "images": []
+        }
+      },
+      "autoimmune": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Inflammation, disorders, & wound healing/autoimmune.txt"
           ],
           "images": []
         }
