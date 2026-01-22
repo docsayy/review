@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:26:03.751Z",
+  "generatedAt": "2026-01-22T20:26:28.363Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -627,12 +627,32 @@
           "images": []
         }
       },
+      "macrocytic_anemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/macrocytic_anemias.txt"
+          ],
+          "images": []
+        }
+      },
       "microcytic_anemias": {
         "sources": {
           "quick": [],
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematology/microcytic_anemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "normocytic_anemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/normocytic_anemias.txt"
           ],
           "images": []
         }
