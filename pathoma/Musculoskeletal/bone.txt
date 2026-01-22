@@ -1,0 +1,17 @@
+Bone is composed of cortical bone and trabecular bone.
+
+Osteoblasts form new bone matrix.
+
+Osteoclasts resorb bone.
+
+Osteocytes maintain bone.
+
+Type I collagen is the main organic component of bone.
+
+Hydroxyapatite is the main inorganic component of bone.
+
+Bone remodeling balances osteoblast and osteoclast activity.
+
+Parathyroid hormone increases osteoclast activity.
+
+Vitamin D promotes calcium absorption and bone mineralization.
