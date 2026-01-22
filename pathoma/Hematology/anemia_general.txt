@@ -1,0 +1,15 @@
+Anemia is a decrease in red blood cell mass.
+
+Anemia is classified by mean corpuscular volume.
+
+Microcytic anemia has low mean corpuscular volume.
+
+Normocytic anemia has normal mean corpuscular volume.
+
+Macrocytic anemia has high mean corpuscular volume.
+
+Reticulocyte count reflects bone marrow response.
+
+Low reticulocyte count indicates decreased red cell production.
+
+High reticulocyte count indicates increased red cell destruction or loss.
