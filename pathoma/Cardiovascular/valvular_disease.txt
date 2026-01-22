@@ -1,11 +1,25 @@
-Aortic stenosis causes left ventricular hypertrophy.
+Aortic stenosis is most commonly caused by age-related calcific degeneration.
 
-Calcific degeneration is the most common cause of aortic stenosis.
+Calcific aortic stenosis produces progressive narrowing of the valve orifice.
 
 Bicuspid aortic valve predisposes to early aortic stenosis.
 
-Mitral regurgitation causes left atrial dilation.
+Aortic stenosis causes concentric left ventricular hypertrophy.
 
-Mitral valve prolapse is caused by myxomatous degeneration.
+Classic symptoms of aortic stenosis are syncope, angina, and dyspnea.
+
+Mitral stenosis is most commonly caused by rheumatic heart disease.
+
+Mitral stenosis causes left atrial enlargement.
+
+Left atrial enlargement predisposes to atrial fibrillation.
+
+Atrial fibrillation increases risk of thromboembolism.
+
+Mitral regurgitation causes volume overload of left atrium and left ventricle.
+
+Mitral valve prolapse is caused by myxomatous degeneration of valve leaflets.
+
+Mitral valve prolapse produces a mid-systolic click.
 
 Tricuspid regurgitation is commonly due to right ventricular dilation.
