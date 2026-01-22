@@ -1,9 +1,13 @@
-Rheumatic fever follows streptococcal pharyngitis.
+Rheumatic fever follows group A streptococcal pharyngitis.
 
-Rheumatic fever is caused by molecular mimicry.
+Rheumatic fever is caused by molecular mimicry between streptococcal antigens and cardiac tissue.
 
-Aschoff bodies are granulomatous lesions in rheumatic heart disease.
+Aschoff bodies are granulomatous lesions seen in rheumatic fever.
 
-Rheumatic heart disease causes mitral stenosis.
+Aschoff bodies contain T cells, plasma cells, and activated macrophages.
 
-Rheumatic heart disease causes commissural fusion of valves.
+Rheumatic heart disease most commonly affects the mitral valve.
+
+Rheumatic mitral stenosis shows commissural fusion and thickened valve leaflets.
+
+Rheumatic fever can also cause aortic valve disease.
