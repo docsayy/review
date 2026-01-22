@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:34:51.824Z",
+  "generatedAt": "2026-01-22T18:35:32.958Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -161,6 +161,18 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Cell adaptation, injury & death/wound_healing.txt"
+          ],
+          "images": []
+        }
+      }
+    },
+    "Hemodynamic Disorders": {
+      "edema": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hemodynamic Disorders/edema.txt"
           ],
           "images": []
         }
