@@ -1,0 +1,17 @@
+The breast contains lobules and ducts.
+
+Fibrocystic change is a benign breast condition.
+
+Fibrocystic change causes cyst formation and fibrosis.
+
+Fibroadenoma is a benign breast tumor in young women.
+
+Ductal carcinoma in situ is malignant cells confined to ducts.
+
+Invasive ductal carcinoma is the most common breast cancer.
+
+Invasive lobular carcinoma lacks E-cadherin expression.
+
+Breast cancer may metastasize to bone.
+
+BRCA1 and BRCA2 mutations increase breast cancer risk.
