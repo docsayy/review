@@ -1,0 +1,19 @@
+Osteosarcoma is a malignant bone tumor producing osteoid.
+
+Osteosarcoma commonly arises in the metaphysis of long bones.
+
+Osteosarcoma is associated with RB gene mutation.
+
+Ewing sarcoma is a malignant bone tumor of small round blue cells.
+
+Ewing sarcoma is associated with t(11;22) translocation.
+
+Chondrosarcoma is a malignant cartilage-forming tumor.
+
+Giant cell tumor of bone contains multinucleated osteoclast-like cells.
+
+Metastatic carcinoma is the most common malignant tumor in bone.
+
+Prostate cancer commonly causes blastic bone metastases.
+
+Breast cancer commonly causes lytic bone metastases.
