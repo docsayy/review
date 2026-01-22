@@ -1,0 +1,11 @@
+Pneumonia is infection of lung parenchyma.
+
+Lobar pneumonia affects an entire lobe.
+
+Bronchopneumonia affects patchy lung areas.
+
+Aspiration pneumonia affects dependent lung regions.
+
+Tuberculosis causes caseating granulomas.
+
+Primary TB often involves upper lobes.
