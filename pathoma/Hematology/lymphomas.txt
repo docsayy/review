@@ -1,0 +1,17 @@
+Lymphoma is malignancy of lymphoid tissue.
+
+Hodgkin lymphoma contains Reed–Sternberg cells.
+
+Reed–Sternberg cells are CD15 and CD30 positive.
+
+Hodgkin lymphoma spreads in an orderly nodal pattern.
+
+Non-Hodgkin lymphoma spreads in a non-orderly pattern.
+
+Burkitt lymphoma is associated with t(8;14) MYC translocation.
+
+Burkitt lymphoma shows a starry-sky pattern.
+
+Follicular lymphoma is associated with t(14;18) BCL2 translocation.
+
+Diffuse large B-cell lymphoma is the most common non-Hodgkin lymphoma.
