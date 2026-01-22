@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T17:59:43.950Z",
+  "generatedAt": "2026-01-22T18:00:05.206Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -105,6 +105,16 @@
       }
     },
     "Cell adaptation, injury & death": {
+      "cellular_injury": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Cell adaptation, injury & death/cellular_injury.txt"
+          ],
+          "images": []
+        }
+      },
       "growth_adaptations": {
         "sources": {
           "quick": [],
