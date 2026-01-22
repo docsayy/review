@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:30:27.579Z",
+  "generatedAt": "2026-01-22T19:30:40.685Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -279,6 +279,16 @@
       }
     },
     "Gastrointestinal": {
+      "acute_pancreatitis": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Gastrointestinal/acute_pancreatitis.txt"
+          ],
+          "images": []
+        }
+      },
       "appendix": {
         "sources": {
           "quick": [],
