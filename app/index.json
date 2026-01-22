@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:45:13.267Z",
+  "generatedAt": "2026-01-22T19:46:22.512Z",
   "systems": {
     "Cardiovascular": {
       "aneurysm_dissection": {
@@ -863,16 +863,6 @@
       }
     },
     "Respiratory": {
-      "airway_disease": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Respiratory/airway_disease.txt"
-          ],
-          "images": []
-        }
-      },
       "airway_structure": {
         "sources": {
           "quick": [],
