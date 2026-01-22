@@ -1,0 +1,29 @@
+Regeneration replaces damaged tissue with native tissue.
+
+Repair replaces damaged tissue with scar.
+
+Labile tissues continuously regenerate.
+
+Stable tissues regenerate when needed.
+
+Permanent tissues cannot regenerate.
+
+Granulation tissue contains fibroblasts, capillaries, and myofibroblasts.
+
+Type III collagen is deposited in granulation tissue.
+
+Type I collagen replaces type III collagen in scars.
+
+Vitamin C is required for collagen hydroxylation.
+
+Copper is required for collagen cross-linking.
+
+Zinc is required for collagen remodeling.
+
+Primary intention healing has minimal scarring.
+
+Secondary intention healing has larger scars and wound contraction.
+
+Keloids are excessive type III collagen scars.
+
+Hypertrophic scars are excessive type I collagen scars.
