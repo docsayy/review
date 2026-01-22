@@ -1,9 +1,17 @@
-Dilated cardiomyopathy causes ventricular dilation and systolic dysfunction.
+Dilated cardiomyopathy causes dilation of cardiac chambers and systolic dysfunction.
 
-Hypertrophic cardiomyopathy is caused by sarcomere gene mutations.
+Dilated cardiomyopathy may be caused by alcohol toxicity.
+
+Dilated cardiomyopathy may be caused by viral myocarditis.
+
+Doxorubicin chemotherapy can cause dilated cardiomyopathy.
+
+Hypertrophic cardiomyopathy is caused by autosomal dominant mutations in sarcomere proteins.
 
 Hypertrophic cardiomyopathy causes asymmetric septal hypertrophy.
 
-Restrictive cardiomyopathy limits ventricular filling.
+Hypertrophic cardiomyopathy can cause dynamic outflow obstruction.
+
+Restrictive cardiomyopathy causes impaired ventricular filling with preserved systolic function.
 
 Amyloidosis is a common cause of restrictive cardiomyopathy.
