@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:40:35.635Z",
+  "generatedAt": "2026-01-22T18:40:52.750Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -421,6 +421,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Tumor Biology & Metastasis/angiogenesis.txt"
+          ],
+          "images": []
+        }
+      },
+      "metastasis": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Tumor Biology & Metastasis/metastasis.txt"
           ],
           "images": []
         }
