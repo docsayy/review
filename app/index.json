@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:33:15.398Z",
+  "generatedAt": "2026-01-22T19:33:27.926Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -797,6 +797,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Renal/kidney.txt"
+          ],
+          "images": []
+        }
+      },
+      "tubulointerstitial_disease": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Renal/tubulointerstitial_disease.txt"
           ],
           "images": []
         }
