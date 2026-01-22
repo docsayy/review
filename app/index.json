@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:20:47.199Z",
+  "generatedAt": "2026-01-22T20:21:08.017Z",
   "systems": {
     "CNS": {
       "cns": {
@@ -29,6 +29,26 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/CNS/cns_injury.txt"
+          ],
+          "images": []
+        }
+      },
+      "demyelinating": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/CNS/demyelinating.txt"
+          ],
+          "images": []
+        }
+      },
+      "neurodegenerative": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/CNS/neurodegenerative.txt"
           ],
           "images": []
         }
