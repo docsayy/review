@@ -1,0 +1,9 @@
+Dilated cardiomyopathy causes ventricular dilation and systolic dysfunction.
+
+Hypertrophic cardiomyopathy is caused by sarcomere gene mutations.
+
+Hypertrophic cardiomyopathy causes asymmetric septal hypertrophy.
+
+Restrictive cardiomyopathy limits ventricular filling.
+
+Amyloidosis is a common cause of restrictive cardiomyopathy.
