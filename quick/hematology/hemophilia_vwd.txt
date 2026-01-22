@@ -1,0 +1,17 @@
+Hemophilia A is factor VIII deficiency.
+
+Hemophilia B is factor IX deficiency.
+
+Both are X-linked recessive.
+
+PTT is prolonged in hemophilia.
+
+PT and bleeding time are normal in hemophilia.
+
+Classic presentation is hemarthrosis in a young boy.
+
+Hemophilia A is treated with factor VIII replacement and desmopressin.
+
+Hemophilia B is treated with factor IX replacement.
+
+Persistent PTT after factor VIII therapy suggests factor VIII inhibitors.
