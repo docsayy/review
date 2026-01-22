@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:37:20.054Z",
+  "generatedAt": "2026-01-22T18:37:32.079Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -167,6 +167,16 @@
       }
     },
     "Genetic Disorders": {
+      "inheritance_patterns": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Genetic Disorders/inheritance_patterns.txt"
+          ],
+          "images": []
+        }
+      },
       "mutations": {
         "sources": {
           "quick": [],
