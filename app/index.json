@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:23:22.098Z",
+  "generatedAt": "2026-01-22T20:25:35.066Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -611,6 +611,18 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematologic Neoplasms/plasma_cell_disorders.txt"
+          ],
+          "images": []
+        }
+      }
+    },
+    "Hematology": {
+      "red_cell_structure": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/red_cell_structure.txt"
           ],
           "images": []
         }
