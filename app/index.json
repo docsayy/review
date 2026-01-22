@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:18:14.291Z",
+  "generatedAt": "2026-01-22T20:18:29.034Z",
   "systems": {
     "Cardiovascular": {
       "aneurysm_dissection": {
@@ -705,6 +705,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Musculoskeletal/metabolic_bone_disease.txt"
+          ],
+          "images": []
+        }
+      },
+      "soft_tissue_tumors": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Musculoskeletal/soft_tissue_tumors.txt"
           ],
           "images": []
         }
