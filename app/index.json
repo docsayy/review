@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:28:30.923Z",
+  "generatedAt": "2026-01-22T20:28:43.383Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -581,6 +581,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematology/anemia_general.txt"
+          ],
+          "images": []
+        }
+      },
+      "chronic_leukemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/chronic_leukemias.txt"
           ],
           "images": []
         }
