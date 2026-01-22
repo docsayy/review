@@ -4,317 +4,35 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Review Deck</title>
-  <style>
-    :root{
-      --bg:#0b0f14;
-      --panel:#121a24;
-      --card:#0f1722;
-      --line:rgba(255,255,255,.10);
-      --text:#eaf1ff;
-      --muted:#a9b6c8;
-      --accent:#7dd3fc;
-      --accent2:#a7f3d0;
-      --danger:#fb7185;
-      --shadow: 0 18px 60px rgba(0,0,0,.45);
-      --radius: 18px;
-      --pad: 14px;
-    }
-    *{ box-sizing:border-box; }
-    body{
-      margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
-      background: radial-gradient(1200px 600px at 20% -10%, rgba(125,211,252,.10), transparent 60%),
-                  radial-gradient(900px 500px at 90% 10%, rgba(167,243,208,.08), transparent 55%),
-                  var(--bg);
-      color:var(--text);
-      min-height:100vh;
-      display:flex;
-      align-items:stretch;
-      justify-content:center;
-    }
-    .app{
-      width:min(520px, 100vw);
-      padding: 14px;
-      display:flex;
-      flex-direction:column;
-      gap:12px;
-    }
-    .topbar{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-      padding: 10px 12px;
-      border:1px solid var(--line);
-      background:rgba(255,255,255,.03);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-    }
-    .brand{
-      display:flex;
-      flex-direction:column;
-      line-height:1.1;
-    }
-    .brand .title{ font-weight:700; font-size:14px; letter-spacing:.2px; }
-    .brand .sub{ font-size:12px; color:var(--muted); margin-top:3px; }
-    .chip{
-      border:1px solid var(--line);
-      background:rgba(255,255,255,.04);
-      padding: 8px 10px;
-      border-radius: 999px;
-      font-size:12px;
-      color:var(--muted);
-      display:flex;
-      gap:8px;
-      align-items:center;
-      white-space:nowrap;
-    }
-    .btn{
-      border:1px solid var(--line);
-      background:rgba(255,255,255,.05);
-      color:var(--text);
-      padding:10px 12px;
-      border-radius: 14px;
-      font-weight:650;
-      font-size:13px;
-      display:inline-flex;
-      gap:8px;
-      align-items:center;
-      justify-content:center;
-      cursor:pointer;
-      user-select:none;
-      -webkit-tap-highlight-color: transparent;
-    }
-    .btn:active{ transform: translateY(1px); }
-    .btn.primary{
-      border-color: rgba(125,211,252,.35);
-      background: rgba(125,211,252,.10);
-    }
-    .btn.ghost{
-      background: transparent;
-    }
-    .btn.small{
-      padding:8px 10px;
-      border-radius: 12px;
-      font-size:12px;
-      font-weight:650;
-    }
-    .grid2{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      gap:10px;
-    }
-    .panel{
-      border:1px solid var(--line);
-      background: rgba(255,255,255,.03);
-      border-radius: var(--radius);
-      padding: 12px;
-      box-shadow: var(--shadow);
-    }
-    label{
-      font-size:12px;
-      color:var(--muted);
-      display:block;
-      margin-bottom:6px;
-    }
-    select{
-      width:100%;
-      background: rgba(0,0,0,.25);
-      color:var(--text);
-      border:1px solid var(--line);
-      border-radius: 14px;
-      padding: 12px;
-      font-size:14px;
-      outline:none;
-    }
-    .card{
-      border:1px solid var(--line);
-      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
-      border-radius: var(--radius);
-      padding: 14px;
-      box-shadow: var(--shadow);
-      display:flex;
-      flex-direction:column;
-      min-height: 48vh;
-    }
-    .meta{
-      display:flex;
-      align-items:flex-start;
-      justify-content:space-between;
-      gap:10px;
-      padding-bottom: 10px;
-      border-bottom:1px solid var(--line);
-      margin-bottom: 12px;
-    }
-    .meta .path{
-      font-size:12px;
-      color:var(--muted);
-      line-height:1.3;
-    }
-    .meta .count{
-      font-size:12px;
-      color:var(--muted);
-      border:1px solid var(--line);
-      background:rgba(255,255,255,.04);
-      padding:6px 10px;
-      border-radius:999px;
-      white-space:nowrap;
-    }
-    .content{
-      flex:1;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      padding: 8px 4px;
-    }
-    .content .text{
-      font-size:18px;
-      line-height:1.35;
-      font-weight:650;
-      letter-spacing:.1px;
-      text-align:left;
-      width:100%;
-      white-space:pre-wrap;
-      word-break:break-word;
-    }
-    .actions{
-      display:flex;
-      gap:10px;
-      margin-top: 10px;
-    }
-    .actions .btn{ flex:1; }
-    .related{
-      margin-top:10px;
-      display:flex;
-      flex-wrap:wrap;
-      gap:8px;
-      align-items:center;
-    }
-    .divider{
-      height:1px;
-      background: var(--line);
-      margin: 10px 0;
-    }
-    .hint{
-      font-size:12px;
-      color:var(--muted);
-    }
-
-    /* Overlay (attachments stack) */
-    .overlay{
-      position:fixed;
-      inset:0;
-      background: rgba(0,0,0,.55);
-      display:none;
-      align-items:flex-end;
-      justify-content:center;
-      padding: 14px;
-      z-index: 50;
-    }
-    .overlay.show{ display:flex; }
-    .sheet{
-      width:min(520px, 100%);
-      border:1px solid var(--line);
-      background: rgba(12,18,26,.98);
-      border-radius: 22px;
-      box-shadow: var(--shadow);
-      overflow:hidden;
-    }
-    .sheetTop{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-      padding: 12px 12px;
-      border-bottom:1px solid var(--line);
-    }
-    .sheetTop .sheetTitle{
-      display:flex;
-      flex-direction:column;
-      gap:2px;
-      min-width:0;
-    }
-    .sheetTop .sheetTitle b{
-      font-size:13px;
-      letter-spacing:.2px;
-    }
-    .sheetTop .sheetTitle span{
-      font-size:12px;
-      color:var(--muted);
-    }
-    .sheetBody{
-      padding: 12px;
-    }
-    .sheetCard{
-      border:1px solid var(--line);
-      background: rgba(255,255,255,.04);
-      border-radius: 18px;
-      padding: 14px;
-      min-height: 34vh;
-      display:flex;
-      flex-direction:column;
-      justify-content:center;
-    }
-    .sheetCard .sheetText{
-      font-size:16px;
-      line-height:1.35;
-      font-weight:650;
-      white-space:pre-wrap;
-    }
-    .sheetNav{
-      display:flex;
-      gap:10px;
-      padding-top: 12px;
-    }
-    .sheetNav .btn{ flex:1; }
-
-    .kbd{
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-      font-size: 11px;
-      padding: 2px 6px;
-      border:1px solid var(--line);
-      border-radius: 8px;
-      color: var(--muted);
-      background: rgba(255,255,255,.03);
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="app">
-    <div class="topbar">
+
+    <header class="topbar">
       <div class="brand">
         <div class="title">Review Deck</div>
-        <div class="sub" id="lastSeen">No progress saved yet.</div>
+        <div class="sub" id="statusLine">Loading…</div>
       </div>
-      <button class="btn small ghost" id="resetBtn" title="Reset saved progress">Reset</button>
-    </div>
+      <button class="btn small ghost" id="settingsBtn">⚙︎</button>
+    </header>
 
-    <div class="panel" id="pickerPanel">
-      <div class="grid2">
-        <div>
-          <label>System</label>
-          <select id="systemSel"></select>
-        </div>
-        <div>
-          <label>Topic</label>
-          <select id="topicSel"></select>
-        </div>
-      </div>
-      <div style="display:flex; gap:10px; margin-top:12px;">
-        <button class="btn primary" id="startBtn" style="flex:1;">Start review</button>
-        <button class="btn" id="resumeBtn" style="flex:1;">Resume</button>
-      </div>
-      <div class="divider"></div>
+    <!-- NAV (tiles) -->
+    <section class="panel" id="navPanel">
+      <div class="crumbs" id="crumbs"></div>
+      <div class="tiles" id="tiles"></div>
       <div class="hint">
-        Swipe left/right on cards to move. Attachments open as their own “mini-decks.”
+        Tiles are generated from your <span class="mono">review/</span> folder (via <span class="mono">manifest.json</span>).
       </div>
-    </div>
+    </section>
 
-    <div class="card" id="reviewCard" style="display:none;">
+    <!-- REVIEW (cards) -->
+    <section class="card" id="reviewCard" style="display:none;">
       <div class="meta">
         <div class="path" id="pathLine">—</div>
         <div class="count" id="countPill">—</div>
       </div>
+
       <div class="content" id="swipeSurface">
         <div class="text" id="cardText"></div>
       </div>
@@ -324,439 +42,70 @@
         <button class="btn primary" id="nextBtn">Next ▶</button>
       </div>
 
-      <div class="related">
-        <span class="hint">Related:</span>
-        <button class="btn small" id="faBtn">First Aid</button>
-        <button class="btn small" id="pathomaBtn">Pathoma</button>
-        <button class="btn small" id="uwBtn">UWorld</button>
+      <div class="relatedRow">
+        <button class="btn small" id="backBtn">← Topics</button>
+        <button class="btn small" id="imagesBtn" style="display:none;">🖼 Images</button>
+        <button class="btn small ghost" id="resumeBtn">Resume</button>
       </div>
 
-      <div class="divider"></div>
       <div class="hint">
-        Keyboard: <span class="kbd">←</span> <span class="kbd">→</span> also works on desktop.
+        One paragraph = one card. Swipe left/right or use Prev/Next.
+      </div>
+    </section>
+
+  </div>
+
+  <!-- SETTINGS SHEET -->
+  <div class="overlay" id="settingsOverlay" aria-hidden="true">
+    <div class="sheet">
+      <div class="sheetTop">
+        <b>Settings</b>
+        <button class="btn small" id="closeSettings">Close</button>
+      </div>
+
+      <div class="sheetBody">
+        <div class="setting">
+          <label>Theme</label>
+          <div class="seg">
+            <button class="segBtn" data-theme="auto">Auto</button>
+            <button class="segBtn" data-theme="dark">Dark</button>
+            <button class="segBtn" data-theme="light">Light</button>
+          </div>
+          <div class="tiny">Auto follows time/system preference to reduce strain.</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="setting">
+          <label>Progress</label>
+          <button class="btn danger" id="resetProgress">Reset saved progress</button>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- Attachment overlay -->
-  <div class="overlay" id="overlay">
-    <div class="sheet" id="sheet">
+  <!-- IMAGES SHEET -->
+  <div class="overlay" id="imagesOverlay" aria-hidden="true">
+    <div class="sheet">
       <div class="sheetTop">
-        <div class="sheetTitle">
-          <b id="sheetTitle">—</b>
-          <span id="sheetSubtitle">—</span>
+        <div>
+          <b id="imagesTitle">Images</b>
+          <div class="tiny" id="imagesSubtitle">—</div>
         </div>
-        <button class="btn small" id="closeOverlay">Close</button>
+        <button class="btn small" id="closeImages">Close</button>
       </div>
       <div class="sheetBody">
-        <div class="sheetCard" id="sheetSwipeSurface">
-          <div class="sheetText" id="sheetText">—</div>
+        <div class="imgViewer">
+          <img id="imgEl" alt="topic image" />
         </div>
-        <div class="sheetNav">
-          <button class="btn" id="sheetPrev">◀ Prev</button>
-          <button class="btn primary" id="sheetNext">Next ▶</button>
+        <div class="actions">
+          <button class="btn" id="imgPrev">◀ Prev</button>
+          <button class="btn primary" id="imgNext">Next ▶</button>
         </div>
       </div>
     </div>
   </div>
 
-<script>
-/* =========================
-   SAMPLE DATA (replace later)
-   ========================= */
-const DB = {
-  "Cardiology": {
-    "Heart Failure": {
-      review: [
-        "HF = inability of the heart to meet metabolic demands (or requires ↑ filling pressures).",
-        "HFrEF: ↓ contractility → ↓ CO → compensatory SNS/RAAS activation.",
-        "Chronic RAAS/SNS → remodeling + fibrosis → progressive decline.",
-        "Core mortality meds in HFrEF: ARNI/ACEi/ARB + evidence β-blocker + MRA + SGLT2 inhibitor."
-      ],
-      first_aid: [
-        "HFrEF: EF < 40%, S3, pulmonary edema, dilated LV.",
-        "Tx: ACEi/ARB/ARNI, β-blocker, MRA, SGLT2i; diuretics for symptoms."
-      ],
-      pathoma: [
-        "Volume overload → eccentric hypertrophy (sarcomeres in series).",
-        "Pressure overload → concentric hypertrophy (sarcomeres in parallel)."
-      ],
-      uworld: [
-        "Teaching point: ACEi/ARB/ARNI improve survival by reducing remodeling and afterload.",
-        "Common trap: diuretics improve symptoms fast but do not drive mortality benefit alone."
-      ]
-    },
-    "Atrial Fibrillation": {
-      review: [
-        "Afib: chaotic atrial activity → irregularly irregular rhythm, no distinct P waves.",
-        "Stroke prevention is usually the highest-stakes decision: anticoagulate based on risk."
-      ],
-      first_aid: [
-        "Afib: irregularly irregular, absent P waves; risk of atrial thrombus."
-      ],
-      pathoma: [
-        "Atrial dilation/fibrosis predisposes to disorganized conduction."
-      ],
-      uworld: [
-        "Teaching point: rate control + anticoagulation are often the first moves (context dependent)."
-      ]
-    }
-  },
-  "Pulmonary": {
-    "Asthma": {
-      review: [
-        "Asthma: reversible airway hyperreactivity with episodic wheeze + cough + dyspnea.",
-        "Acute exacerbation: SABA + systemic steroids; add ipratropium in moderate-severe.",
-        "Controller cornerstone: inhaled corticosteroid for persistent asthma."
-      ],
-      first_aid: [
-        "Asthma: eosinophils, Curschmann spirals, Charcot-Leyden crystals."
-      ],
-      pathoma: [
-        "Th2 cytokines (IL-4/5/13) → IgE, eosinophils, mucus hypersecretion."
-      ],
-      uworld: [
-        "Trap: nocturnal symptoms often signal poor control → step up controller therapy."
-      ]
-    }
-  }
-};
-
-/* =========================
-   STATE + STORAGE
-   ========================= */
-const LS_KEY = "review_deck_progress_v1";
-const state = {
-  system: null,
-  topic: null,
-  idx: 0,
-  mode: "review", // review | first_aid | pathoma | uworld
-  sheetIdx: 0
-};
-
-function nowStr(){
-  return new Date().toLocaleString();
-}
-function saveProgress(extra = {}){
-  const payload = {
-    system: state.system,
-    topic: state.topic,
-    idx: state.idx,
-    lastSeen: Date.now(),
-    ...extra
-  };
-  localStorage.setItem(LS_KEY, JSON.stringify(payload));
-  renderLastSeen();
-}
-function loadProgress(){
-  try{
-    const raw = localStorage.getItem(LS_KEY);
-    return raw ? JSON.parse(raw) : null;
-  }catch(e){
-    return null;
-  }
-}
-function clearProgress(){
-  localStorage.removeItem(LS_KEY);
-  renderLastSeen();
-}
-
-/* =========================
-   DOM
-   ========================= */
-const systemSel = document.getElementById("systemSel");
-const topicSel  = document.getElementById("topicSel");
-const startBtn  = document.getElementById("startBtn");
-const resumeBtn = document.getElementById("resumeBtn");
-const resetBtn  = document.getElementById("resetBtn");
-
-const pickerPanel = document.getElementById("pickerPanel");
-const reviewCard  = document.getElementById("reviewCard");
-
-const pathLine   = document.getElementById("pathLine");
-const countPill  = document.getElementById("countPill");
-const cardText   = document.getElementById("cardText");
-const prevBtn    = document.getElementById("prevBtn");
-const nextBtn    = document.getElementById("nextBtn");
-const swipeSurface = document.getElementById("swipeSurface");
-
-const faBtn      = document.getElementById("faBtn");
-const pathomaBtn = document.getElementById("pathomaBtn");
-const uwBtn      = document.getElementById("uwBtn");
-
-const lastSeenEl = document.getElementById("lastSeen");
-
-/* Overlay */
-const overlay = document.getElementById("overlay");
-const sheetTitle = document.getElementById("sheetTitle");
-const sheetSubtitle = document.getElementById("sheetSubtitle");
-const sheetText = document.getElementById("sheetText");
-const closeOverlay = document.getElementById("closeOverlay");
-const sheetPrev = document.getElementById("sheetPrev");
-const sheetNext = document.getElementById("sheetNext");
-const sheetSwipeSurface = document.getElementById("sheetSwipeSurface");
-
-/* =========================
-   HELPERS
-   ========================= */
-function systems(){
-  return Object.keys(DB);
-}
-function topics(system){
-  return Object.keys(DB[system] || {});
-}
-function deck(system, topic, kind="review"){
-  return (DB?.[system]?.[topic]?.[kind]) || [];
-}
-function clamp(n, lo, hi){
-  return Math.max(lo, Math.min(hi, n));
-}
-function showPicker(){
-  pickerPanel.style.display = "";
-  reviewCard.style.display = "none";
-}
-function showReview(){
-  pickerPanel.style.display = "none";
-  reviewCard.style.display = "";
-}
-function renderLastSeen(){
-  const p = loadProgress();
-  if(!p || !p.lastSeen){
-    lastSeenEl.textContent = "No progress saved yet.";
-    return;
-  }
-  const d = new Date(p.lastSeen);
-  lastSeenEl.textContent = `Last seen: ${d.toLocaleString()} • ${p.system || "?"} › ${p.topic || "?"}`;
-}
-
-/* =========================
-   RENDER REVIEW
-   ========================= */
-function renderReview(){
-  const sys = state.system;
-  const top = state.topic;
-  const d = deck(sys, top, "review");
-  if(!sys || !top || d.length === 0){
-    cardText.textContent = "No cards yet for this topic.";
-    pathLine.textContent = "—";
-    countPill.textContent = "—";
-    return;
-  }
-
-  state.idx = clamp(state.idx, 0, d.length - 1);
-  const text = d[state.idx];
-
-  pathLine.textContent = `${sys}  ›  ${top}`;
-  countPill.textContent = `Concept ${state.idx + 1} / ${d.length}`;
-  cardText.textContent = text;
-
-  saveProgress();
-}
-
-/* =========================
-   OVERLAY (ATTACHMENTS)
-   ========================= */
-function openOverlay(kind){
-  const sys = state.system;
-  const top = state.topic;
-  const d = deck(sys, top, kind);
-
-  state.mode = kind;
-  state.sheetIdx = 0;
-
-  sheetTitle.textContent = kind === "first_aid" ? "First Aid" :
-                           kind === "pathoma" ? "Pathoma" :
-                           kind === "uworld" ? "UWorld" : "Related";
-  sheetSubtitle.textContent = `${sys} › ${top} • ${d.length} cards`;
-
-  renderSheet();
-  overlay.classList.add("show");
-}
-function closeSheet(){
-  overlay.classList.remove("show");
-  state.mode = "review";
-  state.sheetIdx = 0;
-}
-function renderSheet(){
-  const sys = state.system;
-  const top = state.topic;
-  const d = deck(sys, top, state.mode);
-
-  if(d.length === 0){
-    sheetText.textContent = "Nothing attached yet for this topic.";
-    return;
-  }
-  state.sheetIdx = clamp(state.sheetIdx, 0, d.length - 1);
-  sheetText.textContent = d[state.sheetIdx];
-}
-
-/* =========================
-   INPUT: BUTTONS + SWIPES
-   ========================= */
-function nextCard(){
-  const d = deck(state.system, state.topic, "review");
-  state.idx = clamp(state.idx + 1, 0, Math.max(0, d.length - 1));
-  renderReview();
-}
-function prevCard(){
-  const d = deck(state.system, state.topic, "review");
-  state.idx = clamp(state.idx - 1, 0, Math.max(0, d.length - 1));
-  renderReview();
-}
-
-function sheetNextCard(){
-  const d = deck(state.system, state.topic, state.mode);
-  state.sheetIdx = clamp(state.sheetIdx + 1, 0, Math.max(0, d.length - 1));
-  renderSheet();
-}
-function sheetPrevCard(){
-  const d = deck(state.system, state.topic, state.mode);
-  state.sheetIdx = clamp(state.sheetIdx - 1, 0, Math.max(0, d.length - 1));
-  renderSheet();
-}
-
-/* Swipe utility */
-function attachSwipe(el, onLeft, onRight){
-  let x0 = null, y0 = null, t0 = 0;
-
-  el.addEventListener("touchstart", (e) => {
-    if(!e.touches || e.touches.length !== 1) return;
-    x0 = e.touches[0].clientX;
-    y0 = e.touches[0].clientY;
-    t0 = Date.now();
-  }, {passive:true});
-
-  el.addEventListener("touchend", (e) => {
-    if(x0 === null || y0 === null) return;
-    const dt = Date.now() - t0;
-    const touch = (e.changedTouches && e.changedTouches[0]) ? e.changedTouches[0] : null;
-    if(!touch) return;
-
-    const dx = touch.clientX - x0;
-    const dy = touch.clientY - y0;
-
-    // avoid accidental vertical scroll gestures
-    if(Math.abs(dx) < 45) { x0 = y0 = null; return; }
-    if(Math.abs(dx) < Math.abs(dy) * 1.4) { x0 = y0 = null; return; }
-    if(dt > 800) { x0 = y0 = null; return; }
-
-    if(dx < 0) onLeft(); else onRight();
-    x0 = y0 = null;
-  }, {passive:true});
-}
-
-/* =========================
-   INIT PICKERS
-   ========================= */
-function populateSystems(){
-  systemSel.innerHTML = "";
-  for(const s of systems()){
-    const opt = document.createElement("option");
-    opt.value = s; opt.textContent = s;
-    systemSel.appendChild(opt);
-  }
-}
-function populateTopics(){
-  const s = systemSel.value;
-  topicSel.innerHTML = "";
-  for(const t of topics(s)){
-    const opt = document.createElement("option");
-    opt.value = t; opt.textContent = t;
-    topicSel.appendChild(opt);
-  }
-}
-
-/* =========================
-   EVENTS
-   ========================= */
-systemSel.addEventListener("change", () => {
-  populateTopics();
-});
-
-startBtn.addEventListener("click", () => {
-  state.system = systemSel.value;
-  state.topic = topicSel.value;
-  state.idx = 0;
-  showReview();
-  renderReview();
-});
-
-resumeBtn.addEventListener("click", () => {
-  const p = loadProgress();
-  if(!p || !p.system || !p.topic){
-    // fallback: start current selection
-    state.system = systemSel.value;
-    state.topic = topicSel.value;
-    state.idx = 0;
-  }else{
-    state.system = p.system;
-    state.topic = p.topic;
-    state.idx = p.idx || 0;
-
-    // ensure selects match
-    systemSel.value = state.system;
-    populateTopics();
-    topicSel.value = state.topic;
-  }
-  showReview();
-  renderReview();
-});
-
-resetBtn.addEventListener("click", () => {
-  clearProgress();
-});
-
-prevBtn.addEventListener("click", prevCard);
-nextBtn.addEventListener("click", nextCard);
-
-faBtn.addEventListener("click", () => openOverlay("first_aid"));
-pathomaBtn.addEventListener("click", () => openOverlay("pathoma"));
-uwBtn.addEventListener("click", () => openOverlay("uworld"));
-
-closeOverlay.addEventListener("click", closeSheet);
-overlay.addEventListener("click", (e) => {
-  // click outside sheet closes
-  if(e.target === overlay) closeSheet();
-});
-
-sheetPrev.addEventListener("click", sheetPrevCard);
-sheetNext.addEventListener("click", sheetNextCard);
-
-/* Keyboard */
-window.addEventListener("keydown", (e) => {
-  if(overlay.classList.contains("show")){
-    if(e.key === "ArrowRight") sheetNextCard();
-    if(e.key === "ArrowLeft") sheetPrevCard();
-    if(e.key === "Escape") closeSheet();
-    return;
-  }
-  if(reviewCard.style.display !== "none"){
-    if(e.key === "ArrowRight") nextCard();
-    if(e.key === "ArrowLeft") prevCard();
-    if(e.key === "Escape") showPicker();
-  }
-});
-
-/* Swipes */
-attachSwipe(swipeSurface, nextCard, prevCard);
-attachSwipe(sheetSwipeSurface, sheetNextCard, sheetPrevCard);
-
-/* =========================
-   BOOT
-   ========================= */
-populateSystems();
-populateTopics();
-renderLastSeen();
-
-// Optional: auto-apply saved progress to pickers
-const saved = loadProgress();
-if(saved?.system && DB[saved.system]){
-  systemSel.value = saved.system;
-  populateTopics();
-  if(saved?.topic && DB[saved.system]?.[saved.topic]){
-    topicSel.value = saved.topic;
-  }
-}
-</script>
+  <script src="app.js"></script>
 </body>
 </html>
