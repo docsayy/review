@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:43:04.915Z",
+  "generatedAt": "2026-01-22T18:43:20.364Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -235,6 +235,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematologic Neoplasms/chronic_leukemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "lymphomas": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematologic Neoplasms/lymphomas.txt"
           ],
           "images": []
         }
