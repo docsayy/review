@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:28:06.397Z",
+  "generatedAt": "2026-01-22T18:29:13.053Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -183,6 +183,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Inflammation, disorders, & wound healing/chronic_inflammation.txt"
+          ],
+          "images": []
+        }
+      },
+      "granulomatous_inflammation": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Inflammation, disorders, & wound healing/granulomatous_inflammation.txt"
           ],
           "images": []
         }
