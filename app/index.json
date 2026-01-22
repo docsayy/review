@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:32:58.257Z",
+  "generatedAt": "2026-01-22T19:33:15.398Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -781,6 +781,16 @@
       }
     },
     "Renal": {
+      "glomerular_disease": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Renal/glomerular_disease.txt"
+          ],
+          "images": []
+        }
+      },
       "kidney": {
         "sources": {
           "quick": [],
