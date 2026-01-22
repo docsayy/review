@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:35:51.023Z",
+  "generatedAt": "2026-01-22T19:36:08.329Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -853,6 +853,16 @@
       }
     },
     "Reproductive": {
+      "penis": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Reproductive/penis.txt"
+          ],
+          "images": []
+        }
+      },
       "scrotum": {
         "sources": {
           "quick": [],
