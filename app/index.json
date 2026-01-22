@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:33:19.138Z",
+  "generatedAt": "2026-01-22T18:33:38.979Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -275,6 +275,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Neoplasia/neoplasia_basics.txt"
+          ],
+          "images": []
+        }
+      },
+      "oncogenic_viruses": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Neoplasia/oncogenic_viruses.txt"
           ],
           "images": []
         }
