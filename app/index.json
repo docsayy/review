@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:43:20.364Z",
+  "generatedAt": "2026-01-22T18:43:36.769Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -245,6 +245,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematologic Neoplasms/lymphomas.txt"
+          ],
+          "images": []
+        }
+      },
+      "plasma_cell_disorders": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematologic Neoplasms/plasma_cell_disorders.txt"
           ],
           "images": []
         }
