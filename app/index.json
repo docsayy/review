@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:37:49.020Z",
+  "generatedAt": "2026-01-22T19:37:59.917Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -919,6 +919,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Reproductive/testis.txt"
+          ],
+          "images": []
+        }
+      },
+      "vulva_vagina": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Reproductive/vulva_vagina.txt"
           ],
           "images": []
         }
