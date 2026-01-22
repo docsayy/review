@@ -281,3 +281,8 @@ body{
   border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
   background: color-mix(in srgb, var(--accent) 18%, var(--panel));
 }
+
+button:disabled{
+  opacity: .45;
+  cursor: not-allowed;
+}
