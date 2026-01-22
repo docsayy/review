@@ -1,0 +1,11 @@
+Lung cancer is strongly associated with smoking.
+
+Squamous cell carcinoma is linked to smoking.
+
+Adenocarcinoma is the most common lung cancer in nonsmokers.
+
+Small cell carcinoma is a neuroendocrine tumor.
+
+Small cell carcinoma is associated with paraneoplastic syndromes.
+
+Large cell carcinoma is an undifferentiated lung cancer.
