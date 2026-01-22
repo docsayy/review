@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:40:52.750Z",
+  "generatedAt": "2026-01-22T18:41:06.186Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -441,6 +441,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Tumor Biology & Metastasis/tumor_growth.txt"
+          ],
+          "images": []
+        }
+      },
+      "tumor_immunity": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Tumor Biology & Metastasis/tumor_immunity.txt"
           ],
           "images": []
         }
