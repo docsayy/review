@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:40:22.496Z",
+  "generatedAt": "2026-01-22T18:40:35.635Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -415,6 +415,16 @@
       }
     },
     "Tumor Biology & Metastasis": {
+      "angiogenesis": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Tumor Biology & Metastasis/angiogenesis.txt"
+          ],
+          "images": []
+        }
+      },
       "tumor_growth": {
         "sources": {
           "quick": [],
