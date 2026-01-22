@@ -1,0 +1,29 @@
+Neutrophils exit blood vessels at post-capillary venules.
+
+Margination is movement of neutrophils to vessel periphery during vasodilation.
+
+Rolling occurs via selectins on endothelium binding sialyl-Lewis X on neutrophils.
+
+P-selectin is released from Weibel-Palade bodies by histamine.
+
+E-selectin is induced by IL-1 and TNF.
+
+Adhesion occurs when integrins on neutrophils bind CAMs on endothelium.
+
+IL-1 and TNF upregulate CAMs on endothelium.
+
+C5a and LTB4 upregulate integrins on neutrophils.
+
+Transmigration occurs across post-capillary venules.
+
+Chemotaxis directs neutrophils toward IL-8, C5a, LTB4, and bacterial products.
+
+Opsonins enhance phagocytosis.
+
+IgG and C3b are major opsonins.
+
+Leukocyte adhesion deficiency is caused by mutation in CD18 integrin.
+
+Delayed umbilical cord separation occurs in leukocyte adhesion deficiency.
+
+Lack of pus formation occurs in leukocyte adhesion deficiency.
