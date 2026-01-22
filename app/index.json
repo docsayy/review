@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:22:45.569Z",
+  "generatedAt": "2026-01-22T20:22:57.139Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -1167,6 +1167,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Skin/inflammatory_skin.txt"
+          ],
+          "images": []
+        }
+      },
+      "pigment_disorders": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Skin/pigment_disorders.txt"
           ],
           "images": []
         }
