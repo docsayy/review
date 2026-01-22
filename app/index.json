@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:37:48.535Z",
+  "generatedAt": "2026-01-22T18:38:00.957Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -193,6 +193,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Genetic Disorders/mutations.txt"
+          ],
+          "images": []
+        }
+      },
+      "trinucleotide_disorders": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Genetic Disorders/trinucleotide_disorders.txt"
           ],
           "images": []
         }
