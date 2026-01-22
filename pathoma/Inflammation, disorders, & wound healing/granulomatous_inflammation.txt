@@ -1,0 +1,23 @@
+Granulomatous inflammation is a form of chronic inflammation.
+
+Granulomas contain epithelioid histiocytes and multinucleated giant cells.
+
+Granulomas are surrounded by a rim of lymphocytes.
+
+Non-caseating granulomas lack central necrosis.
+
+Sarcoidosis causes non-caseating granulomas.
+
+Crohn disease causes non-caseating granulomas.
+
+Caseating granulomas have central necrosis.
+
+Tuberculosis causes caseating granulomas.
+
+Fungal infections cause caseating granulomas.
+
+Macrophages present antigen to CD4 cells to initiate granuloma formation.
+
+IL-12 from macrophages induces TH1 differentiation.
+
+TH1 cells secrete IFN-γ to activate macrophages into epithelioid cells.
