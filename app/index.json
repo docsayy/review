@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:43:36.769Z",
+  "generatedAt": "2026-01-22T18:43:58.479Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -245,6 +245,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematologic Neoplasms/lymphomas.txt"
+          ],
+          "images": []
+        }
+      },
+      "myeloproliferative": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematologic Neoplasms/myeloproliferative.txt"
           ],
           "images": []
         }
