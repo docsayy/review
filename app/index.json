@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:28:55.034Z",
+  "generatedAt": "2026-01-22T19:29:14.487Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -345,6 +345,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Gastrointestinal/liver.txt"
+          ],
+          "images": []
+        }
+      },
+      "liver_failure": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Gastrointestinal/liver_failure.txt"
           ],
           "images": []
         }
