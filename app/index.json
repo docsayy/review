@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:37:59.917Z",
+  "generatedAt": "2026-01-22T19:38:27.414Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -863,6 +863,16 @@
           "images": []
         }
       },
+      "cervix": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Reproductive/cervix.txt"
+          ],
+          "images": []
+        }
+      },
       "penis": {
         "sources": {
           "quick": [],
@@ -919,6 +929,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Reproductive/testis.txt"
+          ],
+          "images": []
+        }
+      },
+      "uterus": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Reproductive/uterus.txt"
           ],
           "images": []
         }
