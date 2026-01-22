@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:29:32.689Z",
+  "generatedAt": "2026-01-22T19:29:48.273Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -285,6 +285,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Gastrointestinal/appendix.txt"
+          ],
+          "images": []
+        }
+      },
+      "biliary_disease": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Gastrointestinal/biliary_disease.txt"
           ],
           "images": []
         }
