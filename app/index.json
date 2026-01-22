@@ -1,8 +1,18 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:21:22.859Z",
+  "generatedAt": "2026-01-22T20:21:43.095Z",
   "systems": {
     "CNS": {
+      "cerebrovascular": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/CNS/cerebrovascular.txt"
+          ],
+          "images": []
+        }
+      },
       "cns": {
         "sources": {
           "quick": [],
