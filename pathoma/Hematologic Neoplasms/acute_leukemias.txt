@@ -1,0 +1,17 @@
+Acute leukemia is a malignancy of immature hematopoietic blasts.
+
+Acute leukemia presents with bone marrow failure.
+
+Symptoms include anemia, infections, and bleeding.
+
+Acute myelogenous leukemia contains Auer rods.
+
+Auer rods are crystalline myeloperoxidase-positive inclusions.
+
+Acute promyelocytic leukemia is caused by t(15;17).
+
+Acute promyelocytic leukemia responds to all-trans retinoic acid.
+
+Acute lymphoblastic leukemia is the most common childhood leukemia.
+
+TdT is positive in lymphoblastic leukemia.
