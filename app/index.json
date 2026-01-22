@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:31:04.384Z",
+  "generatedAt": "2026-01-22T19:31:22.372Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -425,6 +425,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Gastrointestinal/pancreas.txt"
+          ],
+          "images": []
+        }
+      },
+      "pancreatic_cancer": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Gastrointestinal/pancreatic_cancer.txt"
           ],
           "images": []
         }
