@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:26:42.905Z",
+  "generatedAt": "2026-01-22T20:26:58.774Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -663,6 +663,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Hematology/normocytic_anemias.txt"
+          ],
+          "images": []
+        }
+      },
+      "platelet_disorders": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematology/platelet_disorders.txt"
           ],
           "images": []
         }
