@@ -1,0 +1,17 @@
+Soft tissue tumors arise from mesenchymal tissues.
+
+Lipoma is a benign tumor of adipose tissue.
+
+Liposarcoma is a malignant tumor of adipose tissue.
+
+Leiomyoma is a benign smooth muscle tumor.
+
+Leiomyosarcoma is a malignant smooth muscle tumor.
+
+Rhabdomyoma is a benign skeletal muscle tumor.
+
+Rhabdomyosarcoma is a malignant skeletal muscle tumor.
+
+Synovial sarcoma is a malignant soft tissue tumor near joints.
+
+Kaposi sarcoma is a vascular tumor associated with HHV-8 infection.
