@@ -1,19 +1,53 @@
-Ischemic heart disease results from reduced coronary blood flow.
+Infarction is tissue necrosis due to lack of oxygen.
 
-Stable angina occurs with exertion and resolves with rest.
+Ischemia is inadequate blood supply to an organ.
 
-Unstable angina occurs at rest and indicates plaque rupture.
+Hypoxemia is defined as PaO₂ less than 60 mm Hg.
 
-Myocardial infarction is irreversible myocardial necrosis.
+Early myocardial infarction is defined as occurring before age 55 in men and before age 45 in women.
 
-ST elevation MI indicates full-thickness infarction.
+The three most common causes of chest pain in the outpatient setting are GERD, anxiety, and costochondral tenderness.
 
-Troponin is the most sensitive marker of myocardial injury.
+Pain of myocardial infarction is usually described as pressure, like an elephant sitting on the chest.
 
-Coagulative necrosis occurs in myocardial infarction.
+Pleuritic chest pain is sharp in quality.
 
-Macrophages clear necrotic myocardium after infarction.
+ST depression in the aVR lead is more specific for pericarditis.
 
-Granulation tissue forms during infarct healing.
+The most common cause of ischemic heart disease is atherosclerosis of coronary arteries.
 
-Scar tissue replaces necrotic myocardium.
+Risk factors for ischemic heart disease are the same as for atherosclerosis, including age, sex, race, smoking, hypertension, and diabetes.
+
+Ischemia lasts about 20 minutes before irreversible injury to cardiac myocytes occurs.
+
+Stable angina causes chest pain that develops with physical or emotional stress.
+
+Stable angina is caused by more than 70 percent stenosis of coronary arteries.
+
+During stable angina, cardiac myocytes undergo reversible injury.
+
+Stable angina presents with chest pain lasting less than 20 minutes that may radiate to the left arm or jaw.
+
+If chest pain lasts more than 20 minutes, myocardial infarction with irreversible myocyte damage occurs.
+
+Stable angina may present with diaphoresis and shortness of breath.
+
+Pain of stable angina is relieved by rest or nitroglycerin.
+
+EKG in stable angina shows ST segment depression.
+
+Stable angina causes subendocardial ischemia because coronary vessels travel in the epicardium and the endocardium is the last region to receive blood.
+
+Unstable angina causes chest pain at rest.
+
+Unstable angina is due to rupture of an atherosclerotic plaque with thrombosis and incomplete occlusion of a coronary artery.
+
+Plaque rupture usually occurs at the neck of the plaque.
+
+During unstable angina, myocytes undergo reversible injury.
+
+Pain of unstable angina is relieved by nitroglycerin due to venodilation reducing cardiac workload.
+
+Unstable angina has high risk of progression to myocardial infarction because the thrombus can grow.
+
+EKG in unstable angina shows ST depression.
