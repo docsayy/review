@@ -1,0 +1,13 @@
+The coagulation cascade forms fibrin clots.
+
+Hemophilia A is caused by factor VIII deficiency.
+
+Hemophilia B is caused by factor IX deficiency.
+
+Hemophilia is X-linked recessive.
+
+Disseminated intravascular coagulation causes widespread clotting and bleeding.
+
+Vitamin K deficiency reduces synthesis of clotting factors II, VII, IX, and X.
+
+Liver disease causes decreased clotting factor production.
