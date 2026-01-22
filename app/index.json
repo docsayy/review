@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:50:48.372Z",
+  "generatedAt": "2026-01-22T18:51:04.400Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -555,6 +555,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Respiratory/airway_disease.txt"
+          ],
+          "images": []
+        }
+      },
+      "lung_cancer": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Respiratory/lung_cancer.txt"
           ],
           "images": []
         }
