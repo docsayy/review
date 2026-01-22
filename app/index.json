@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:27:21.916Z",
+  "generatedAt": "2026-01-22T20:28:30.923Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -564,59 +564,17 @@
         }
       }
     },
-    "Hematologic Neoplasms": {
+    "Hematology": {
       "acute_leukemias": {
         "sources": {
           "quick": [],
           "firstaid": [],
           "pathoma": [
-            "pathoma/Hematologic Neoplasms/acute_leukemias.txt"
+            "pathoma/Hematology/acute_leukemias.txt"
           ],
           "images": []
         }
       },
-      "chronic_leukemias": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematologic Neoplasms/chronic_leukemias.txt"
-          ],
-          "images": []
-        }
-      },
-      "lymphomas": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematologic Neoplasms/lymphomas.txt"
-          ],
-          "images": []
-        }
-      },
-      "myeloproliferative": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematologic Neoplasms/myeloproliferative.txt"
-          ],
-          "images": []
-        }
-      },
-      "plasma_cell_disorders": {
-        "sources": {
-          "quick": [],
-          "firstaid": [],
-          "pathoma": [
-            "pathoma/Hematologic Neoplasms/plasma_cell_disorders.txt"
-          ],
-          "images": []
-        }
-      }
-    },
-    "Hematology": {
       "anemia_general": {
         "sources": {
           "quick": [],
