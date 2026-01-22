@@ -1,8 +1,9 @@
 // app/app.js
+// Reads app/index.json (manually maintained) and renders tiles + cards.
 
 const INDEX_URL = "app/index.json";
 
-const LS_PROGRESS = "rd_progress_v1"; // per topic + source
+const LS_PROGRESS = "rd_progress_v1"; // per system/topic/source
 const LS_THEME = "rd_theme_v1";       // auto|dark|light
 
 const el = (id) => document.getElementById(id);
@@ -74,16 +75,16 @@ function pretty(s){ return String(s).replace(/_/g, " "); }
 function progressKey(){
   return `${state.system}::${state.topic}::${state.source}`;
 }
-function saveProgress(){
-  const all = loadAllProgress();
-  all[progressKey()] = { idx: state.cardIdx, t: Date.now() };
-  localStorage.setItem(LS_PROGRESS, JSON.stringify(all));
-}
 function loadAllProgress(){
   try{
     const raw = localStorage.getItem(LS_PROGRESS);
     return raw ? JSON.parse(raw) : {};
   }catch{ return {}; }
+}
+function saveProgress(){
+  const all = loadAllProgress();
+  all[progressKey()] = { idx: state.cardIdx, t: Date.now() };
+  localStorage.setItem(LS_PROGRESS, JSON.stringify(all));
 }
 function loadProgress(){
   const all = loadAllProgress();
@@ -190,8 +191,9 @@ async function openTopic(system, topic){
   state.system = system;
   state.topic = topic;
 
-  // Default source preference: Quick if exists, else FirstAid, else Pathoma
   const srcs = state.index.systems[system][topic].sources;
+
+  // Choose first available source
   if(srcs.quick?.length) state.source = "quick";
   else if(srcs.firstaid?.length) state.source = "firstaid";
   else if(srcs.pathoma?.length) state.source = "pathoma";
@@ -201,8 +203,9 @@ async function openTopic(system, topic){
   show(screenReview);
 
   await setSource(state.source);
+
   state.images = srcs.images || [];
-  updateSourceButtons();
+  updateButtons();
   renderCard();
 }
 
@@ -210,17 +213,15 @@ async function setSource(sourceKey){
   state.source = sourceKey;
   state.cards = await loadSourceDeck(state.system, state.topic, sourceKey);
 
-  // restore per-source progress
   const prog = loadProgress();
   state.cardIdx = prog ? clamp(prog.idx || 0, 0, Math.max(0, state.cards.length - 1)) : 0;
 
-  updateSourceButtons();
+  updateButtons();
   renderCard();
 }
 
-function updateSourceButtons(){
+function updateButtons(){
   const srcs = state.index.systems[state.system][state.topic].sources;
-
   const hasQ = (srcs.quick?.length || 0) > 0;
   const hasF = (srcs.firstaid?.length || 0) > 0;
   const hasP = (srcs.pathoma?.length || 0) > 0;
@@ -242,11 +243,11 @@ function renderCard(){
   const total = state.cards.length;
   state.cardIdx = clamp(state.cardIdx, 0, Math.max(0, total - 1));
 
-  pathLine.textContent = `${pretty(state.system)} › ${pretty(state.topic)}  •  ${state.source.toUpperCase()}`;
+  pathLine.textContent = `${pretty(state.system)} › ${pretty(state.topic)} • ${state.source.toUpperCase()}`;
   countPill.textContent = total ? `Card ${state.cardIdx+1} / ${total}` : "No cards";
   cardText.textContent = total ? state.cards[state.cardIdx] : "No text files found for this source/topic.";
-  hintLine.textContent = "One paragraph = one card. Swipe left/right.";
 
+  hintLine.textContent = "One paragraph = one card. Swipe left/right.";
   saveProgress();
 }
 
@@ -266,7 +267,6 @@ function openImages(){
   const imgs = state.index.systems[state.system][state.topic].sources.images || [];
   state.images = imgs;
   state.imgIdx = 0;
-
   imgOverlay.classList.add("show");
   renderImage();
 }
@@ -386,7 +386,7 @@ async function boot(){
 
   const res = await fetch(INDEX_URL, { cache: "no-store" });
   if(!res.ok){
-    statusLine.textContent = "Missing app/index.json — run: node build-index.js";
+    statusLine.textContent = "Missing app/index.json — create it (sample below).";
     return;
   }
   state.index = await res.json();
