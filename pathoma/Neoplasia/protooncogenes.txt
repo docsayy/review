@@ -1,0 +1,27 @@
+Cancer results from mutation of proto-oncogenes.
+
+Cancer also results from loss of tumor suppressor genes.
+
+Cancer also results from dysregulation of apoptosis.
+
+Proto-oncogenes regulate normal cell growth.
+
+Mutated proto-oncogenes become oncogenes.
+
+PDGFB overexpression causes astrocytoma.
+
+ERBB2 amplification causes breast carcinoma.
+
+RET mutation causes MEN2 and medullary thyroid carcinoma.
+
+KIT mutation causes gastrointestinal stromal tumors.
+
+RAS mutation occurs in many carcinomas and melanomas.
+
+ABL translocation t(9;22) causes CML.
+
+C-MYC translocation t(8;14) causes Burkitt lymphoma.
+
+N-MYC amplification causes neuroblastoma.
+
+Cyclin D1 translocation t(11;14) causes mantle cell lymphoma.
