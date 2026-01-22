@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:20:33.634Z",
+  "generatedAt": "2026-01-22T20:20:47.199Z",
   "systems": {
     "CNS": {
       "cns": {
@@ -9,6 +9,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/CNS/cns.txt"
+          ],
+          "images": []
+        }
+      },
+      "cns_infections": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/CNS/cns_infections.txt"
           ],
           "images": []
         }
