@@ -1,0 +1,21 @@
+A mutation is a permanent change in DNA sequence.
+
+Point mutations affect a single nucleotide.
+
+Missense mutations change one amino acid.
+
+Nonsense mutations create a premature stop codon.
+
+Frameshift mutations result from insertions or deletions.
+
+Frameshift mutations alter the reading frame of DNA.
+
+Silent mutations do not change amino acid sequence.
+
+Loss-of-function mutations reduce protein activity.
+
+Gain-of-function mutations increase or create new protein activity.
+
+Somatic mutations occur in non-germline cells.
+
+Germline mutations are inherited.
