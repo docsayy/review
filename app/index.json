@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:15:14.946Z",
+  "generatedAt": "2026-01-22T19:15:36.389Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -645,6 +645,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Respiratory/restrictive_lung_disease.txt"
+          ],
+          "images": []
+        }
+      },
+      "tuberculosis": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Respiratory/tuberculosis.txt"
           ],
           "images": []
         }
