@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:29:14.487Z",
+  "generatedAt": "2026-01-22T19:29:32.689Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -335,6 +335,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Gastrointestinal/hepatitis.txt"
+          ],
+          "images": []
+        }
+      },
+      "hepatocellular_carcinoma": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Gastrointestinal/hepatocellular_carcinoma.txt"
           ],
           "images": []
         }
