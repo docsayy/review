@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:29:49.530Z",
+  "generatedAt": "2026-01-22T18:31:37.019Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -233,6 +233,18 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Inflammation, disorders, & wound healing/phagocytosis.txt"
+          ],
+          "images": []
+        }
+      }
+    },
+    "Neoplasia": {
+      "neoplasia_basics": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Neoplasia/neoplasia_basics.txt"
           ],
           "images": []
         }
