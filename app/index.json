@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:33:01.137Z",
+  "generatedAt": "2026-01-22T18:33:19.138Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -255,6 +255,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Neoplasia/cancer_epidemiology.txt"
+          ],
+          "images": []
+        }
+      },
+      "carcinogens": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Neoplasia/carcinogens.txt"
           ],
           "images": []
         }
