@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T19:37:10.294Z",
+  "generatedAt": "2026-01-22T19:37:33.907Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -859,6 +859,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Reproductive/penis.txt"
+          ],
+          "images": []
+        }
+      },
+      "pregnancy": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Reproductive/pregnancy.txt"
           ],
           "images": []
         }
