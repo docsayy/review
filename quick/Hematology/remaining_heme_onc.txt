@@ -1,0 +1,262 @@
+Secondary review (some students prefer bullet-point / vignette-style format). If you have already reviewed above tables, the following can be used to double-check your understanding of concepts. Otherwise you can move to another PDF. cell of lung); biopsy shows clear cell carcinoma (most common variant of RCC; HY biopsy finding for Step 1).
+
+▪ 1) some literature has suggested no Tx is necessary in select pediatric cases where the presentation is limited to mild cutaneous findings. However on the USMLE, steroids is always the answer for immediate management.
+
+“Do we have to know the clotting cascade?” -> To understand many heme disorders, yes, you should know it:.
+
+Inheritance pattern of vWD? -> autosomal dominant (high-yield). an X-linked recessive disorder unless the explicit point of the Q is X-inactivation/lyonization. That is, never assume, “hmm well maybe there’s lyonization here…” If the USMLE wants that, they’ll ask it.
+
+Cancer of plasma cells -> monoclonal expansion, where the bone marrow has ↑↑ plasma cells (>10%) originating from a single plasma cell.
+
+The neoplastic plasma cells can cause ↑ cytokine activity at bone -> causes lytic lesions (e.g., “Pepperpot skull”) + back pain (spinal lytic lesions) -> lysis of bone causes hypercalcemia.
+
+“Pepper pot skull”.
+
+Cancer of plasmacytoid cells -> “oid” means looks like but ain’t. So the cells look like plasma cells, but they ain’t plasma cells. For instance,.
+
+▪ Fibrinoid necrosis in polyarteritis nodosa -> necrosis looks like fibrin, but it’s not. ▪ Patients with MEN2B have Marfanoid body habitus -> they look like they have Marfan syndrome, but they don’t.
+
+Hyperviscosity syndrome -> can present as headache, blurry vision, pain in the tips of the fingers, and/or Raynaud phenomenon.
+
+▪ Correct, Raynaud occurs in things other than CREST syndrome. And these.
+
+82F + back pain + hypercalcemia + Hx of breast cancer 15 years ago; Dx? -> metastatic malignancy.
+
+Plasmin breaks down fibrin, so more fibrin means more plasmin is upregulated in an attempt to dissolve the excess fibrin production.
+
+13M + bloody diarrhea + afebrile + low platelets + low Hb + red urine + smear is shown; Dx?
+
+3) renal insufficiency with or without hematuria.
+
+The mechanisms are different, as discussed above, but presentation-wise, that’s an easy way to remember it.
+
+54F + massive splenomegaly + smear is shown; Dx?
+
+What does red pulp vs white pulp of spleen do? -> red pulp is where senescent RBCs are phagocytosed; white pulp contains ~50% of the body’s reservoir of macrophages.
+
+3F + African-American + painful hands + HR120 + 2/6 mid-systolic murmur; Dx? -> answer = sickle cell crisis; dactylitis (inflammation of the fingers) is one of the most common presentations, especially in pediatrics; benign flow/functional murmurs can be seen with high HR, especially in peds.
+
+Inheritance pattern of sickle cell? -> answer = autosomal recessive (HY); carrier status (one mutation) is referred to as sickle cell trait, which is less severe than sickle cell anemia (two mutations).
+
+Mutation in sickle cell? -> answer = glutamic acid -> valine on the beta-chain.
+
+How to Dx sickle cell? -> answer = hemoglobin electrophoresis -> glutamic acid is negatively charged; valine is neutral; this means HbS is more non-polar -> does not migrate as far on Hb electrophoresis (gel goes from.
+
+> +) because it is less attracted to the + end of the gel.
+
+When does sickling notably occur in sickle cell? -> dehydration + increased acidity.
+
+Sickle cells.
+
+4M + sickle cell + Q asks which of the following best describes the molecular basis for sickling in this patient -> answer = “gain of stabilizing hydrophobic interactions in the deoxygenated form of hemoglobin S” -> valine is more hydrophobic than glutamic acid.
+
+5F + sickle cell; Q asks mechanism for sickling; answer = beta chain slips into a complimentary hydrophobic pocket on the alpha chain.
+
+3F + takes penicillin prophylaxis; why? -> decreases Strep pneumo infections; penicillin prophylaxis indicated until age 5, in addition to PCV13 and PPSV23 Strep pneumo vaccines.
+
+One-year-old girl + missed dose of penicillin prophylaxis a few days ago + now has fever of 103F + HR 100, RR 22, low BP; what antibiotic do we give? -> answer = cefotaxime; penicillin and ceftriaxone are wrong answers; community-acquired sepsis (patient need not have sickle cell) often treated with third-generation cephalosporin; give cefotaxime < age 6; give ceftriaxone > age 6.
+
+8M + sepsis; Abx Tx? -> answer = ceftriaxone.
+
+5F + sickle cell + red urine; Dx? -> answer = renal papillary necrosis; most common cause of nephritic syndrome in sickle cell.
+
+5F + sickle cell + renal problem + no blood in urine; Dx? -> answer = focal segmental glomerulosclerosis (FSGS); most common cause of nephrotic syndrome in sickle cell.
+
+Osteomyelitis organism in sickle cell? -> answer = Salmonella.
+
+3F + sickle cell + foot pain for three weeks + fever of 103F + high WBCs; Dx? -> answer = osteomyelitis; acute sickling crisis is wrong answer; difficult Q, as low-grade fever, leukocytosis, and pain over many weeks can be seen in sickling crisis, however fevers >101F suggest infection; osteomyelitis may present with pain over many weeks.
+
+16F + sickle cell; what is this patient at increased risk of? -> answer = cholelithiasis; USMLE loves this one -> ↑ RBC turnover -> ↑ unconjugated bilirubin production -> ↑ risk of pigmented gall stones (calcium bilirubinate).
+
+Tx for sickle cell + what’s the mechanism? -> answer = hydroxyurea; mechanism = ↑ production of fetal hemoglobin (HbF); hydroxyurea is a ribonucleotide reductase inhibitor -> inhibits pyrimidine synthesis.
+
+“Why do those with sickle cell trait and anemia have ↑ resistance to malaria?” -> RBC lifespan is reduced due to ↑ RBC turnover, so intra-erythrocytic lifecycle of the protozoan is disrupted.
+
+How to Dx malaria? -> answer = thick and thin blood smears.
+
+Which type of malaria is the “worst?” -> answer = Plasmodium falciparum because it causes cerebral malaria (microthrombosis and hemorrhage).
+
+Malaria prophylaxis? -> chloroquine, mefloquine.
+
+20F + has P. vivax + treated with primaquine; why? -> answer = “primaquine kills hypnozoites.”.
+
+20F + comes back from Africa with hemolytic disease + smear is shown; Dx?
+
+Answer = malaria; smear shows ring form of malaria.
+
+20F + lives in Connecticut + has a hemolytic disease; smear is shown; Dx?
+
+Answer = Babesia; smear shows ring form.
+
+Babesia causes a hemolytic disease similar to malaria but the patient will not have left the USA. This type of Q can be tricky because both malaria and Babesia can have a similar appearing ring form. Bottom line:.
+
+▪ Hemolytic disease + ring form on smear + patient went to Africa, South America, or Asia; answer = malaria.
+
+▪ Hemolytic disease + ring form on smear + patient never left the United States; answer = Babesia, not malaria.
+
+22F + comes back from Africa with hemolytic disease + smear is shown; Dx?
+
+Answer = malaria; smear shows schizont form.
+
+22F + lives in Connecticut + has a hemolytic disease; smear is shown; Dx?
+
+Answer = Babesia; smear shows characteristic Maltese cross.
+
+“What is HbC?” -> just another type of Hb disorder where glutamic acid -> lysine (not valine); lysine is positively charged, so it migrates the least far on Hb electrophoresis, as it is most attracted to the - charge at the origin (gel goes from - -> +).
+
+What variables shift the Hb-O2 curve to the right? -> answer = ↑ temperature, ↑ CO2, ↑ H+ (i.e., ↑ acidity), ↓ HCO3-, ↑ 2,3-BPG.
+
+What does a Hb-O2 curve shift to the right mean? -> answer = increased unloading of oxygen at tissues. deoxygenated hemoglobin - i.e., the deoxyhemoglobin acts as a buffer for protons in the blood. At the same time, the bicarb moves out of the RBC into the plasma, and chloride moves into the RBC to balance charge. This is referred to as chloride shift. Key points:.
+
+At the tissues, CO2 moves into RBCs.
+
+CO2 + H2O ↔ H2CO3 ↔ HCO3- + H+.
+
+HCO3- leaves the RBC. Cl- moves into RBC to balance charge. H+ hops onto deoxy-Hb. o Therefore most CO2 in the blood is carried as bicarbonate in the plasma. Students tend to erroneously pick “bicarb in the RBC” because it sounds weird so they think it’s right. But the answer is bicarb in plasma.
+
+At the lungs, this process reverses, where H+ hops off the Hb, Cl- leaves the RBC, HCO3- enters the RBC. HCO3- + H+ ↔ H2CO3 ↔ CO2 + H2O. CO2 then leaves the RBC and is exhaled.
+
+43M + works as a butcher + recent fatigue + low O2 sats; Dx? -> answer = methemoglobinemia; can be caused by nitrates used to preserve meats.
+
+Mechanism of methemoglobinemia? -> Fe on hemoglobin is normally 2+ charge state (ferrous); it becomes oxidized to Fe3+ (ferric), which does not bind O2 as well -> Hb becomes desaturated.
+
+28F + goes hiking and drinks mountain water + “brown blood”; Dx? -> answer = methemoglobinemia caused by nitrates/nitrates (yes, both can cause it) found in mountain/river water; “brown blood” is seen in methemoglobinemia; in contrast “cherry red blood” (or lips) is seen in CO poisoning.
+
+3F + “brown blood”; mechanism for her disease? -> answer = “congenital methemoglobinemia caused by deficiency of cytochrome B5 reductase.”.
+
+Tx for methemoglobinemia? -> answer = IV methylene blue + vitamin C.
+
+Pulse oximetry finding in methemoglobinemia? -> answer = low (80s%).
+
+34M + fatigue + moved into a new house in winter with an old ventilator; Tx? -> answer = hyperbaric oxygen for CO poisoning.
+
+34M + light-headedness + was hanging out on moored boat while the engine was running; Dx? -> CO poisoning.
+
+Mechanism for CO poisoning? -> CO has ↑↑ higher affinity for Hb than O2, so maximal O2 binding to Hb is impaired.
+
+Pulse oximetry finding in CO poisoning? -> answer = pulse oximetry is normal is CO poisoning -> standard pulse oximeters can only read the gas bound to Hb, period; they can’t distinguish whether it’s O2 or CO; specialized CO oximeters do exist that can distinguish.
+
+What is normal pulse oximetry finding? -> 98-100% saturation. However values as low as 94% can be considered acceptable.
+
+Tx for CO poisoning? -> answer = hyperbaric oxygen.
+
+How does CO affect the Hb-O2 curve? -> down-shifts it.
+
+34M + BP of 250/130 + confusion; Dx? -> hypertensive encephalopathy. You say, “What? How does that relate to heme/onc?” Stay with me here:.
+
+20M + lymphadenopathy + low platelets + smear is shown; Dx?
+
+Tx of the leukemia + increased serum uric acid levels; Dx? -> answer = tumor lysis syndrome; need to know the arrows -> answer = ↑ potassium; ↓ bicarb; ↓ calcium; ↑ phosphate; ↓ CO2; variable sodium; ↑ uric acid. Xanthine oxidase inhibitors can help prevent (i.e., allopurinol, febuxostat); do not give these agents if 6-mercaptopurine or azathioprine are being used in Mx (require XO for breakdown).
+
+Whenever I ask students about this type of vignette, they’ll always say it’s Strep pneumo causing pneumonia. But if this were the Dx in isolation, WBC count should only be about 11- 20,000 at most; if the patient is septic, maybe upwards of 25-30,000. So when you see WBCs >30,000, you really need to say, “Oh shit ok, that’s leukemia as the underlying Dx. And this patient just happens to have an infection due to immunodeficiency.”.
+
+55M + high WBCs + Coombs test positive + smear is shown; Dx?
+
+“Warm? What?” -> Relax. Warm vs cold autoimmune hemolytic anemia (AIHA) means you’ve got either IgG (warm) or IgM (cold; Mmm ice cream) against RBCs.
+
+Cold AIHA (aka cold agglutinin disease) is seen sometimes with mycoplasma or CMV infection, where the patient can have IgM antibodies against RBCs and a hemolytic anemia (e.g., CMV infection + low Hb).
+
+Positive Coombs test = the patient has IgM or IgG antibodies against RBCs -> whatever RBC issue the patient has, it’s due to antibodies.
+
+“Wait, can you explain Coombs test real quick?” -> direct vs indirect types; direct Coombs is taking the patient’s RBCs and seeing if they agglutinate in vitro using various laboratory antibodies; if the RBCs agglutinate, this means there were antibodies attached to their surface, and the patient did in fact have antibody-mediated hemolytic anemia; indirect Coombs is taking the patient’s plasma and seeing if it induces laboratory RBCs to agglutinate; if agglutination occurs, then the patient had antibodies in his/her plasma and we know that he/she did in fact have antibody-mediated hemolysis.
+
+44F + WBCs 14,500 + metamyelocytes and myelocytes seen on FBC + smear is shown; Dx?
+
+44F + WBCs 32,000 + metamyelocytes and myelocytes seen on FBC + urinalysis shows nitrites and leukocyte esterase + smear is shown; Dx?
+
+54M + lytic bone lesions + electron microscopy is shown with cells that are CD1a positive; Dx?
+
+Answer = Langerhan cell histiocytosis; characteristic tennis racquet-shaped cells are called Burbeck granules.
+
+17M + fever + tonsillar exudates + cervical lymphadenopathy + confluent ulcerations seen in posterior oropharynx; this pathogen can also cause what? -> answer = hemolytic anemia; patient has mononucleosis; 90% of the time, it’s caused by EBV; but 10% is CMV; linear (confluent) ulcers = CMV; CMV is a known cause of cold AIHA.
+
+49M + jaundice + high ALP + pancreatic enzymes normal + weight loss + painful erythematous areas on arms and legs; Dx? -> pancreatic head adenocarcinoma causing migratory thrombophlebitis (Trousseau sign of malignancy).
+
+50M + hepatitis C + purpura on arms and legs + joint pain + low complement C4; Dx? -> answer = cryoglobulinemia.
+
+“Wtf is a cryoglobulin?” -> cryoglobulins are immunoglobulins that precipitate at “cold” temperatures (i.e., <37C); cryoglobulinemia can be caused by malignancy as well as chronic infections (HepC, HIV). C4 can be decreased due to activation of the complement cascade, notably C4. Do not confuse cryoglobulinemia with cold agglutinin disease, which is aka cold autoimmune hemolytic anemia.
+
+22M + vegetarian/vegan + ↑ MCV + smear is shown; Dx?
+
+“What is sideroblastic anemia?” -> condition characterized by normal iron levels but merely the inability to incorporate the iron into heme -> results in RBC precursors (nucleated erythroblasts) containing peri-nuclear iron-laden macrophages that stain blue with Prussian blue stain (“ringed sideroblasts”). The visible iron aggregates are known as Pappenheimer bodies.
+
+Cause of sideroblastic anemia? -> Usually X-linked recessive condition due to deficiency of δ aminolevulinic acid synthase (δ-ALA), but can also be acquired, most commonly due to alcohol.
+
+23F + abdominal pain + pink urine + ↑ urinary porphobilinogen + ↑ δ-ALA; Dx? -> answer = acute intermittent porphyria -> heme synthesis disorder caused by deficiency of porphobilinogen deaminase -> classically associated with “Port wine-colored urine” (but vignettes can just say pink or red), abdominal pain, and ↑ urinary porphobilinogen; some patients can also have neurologic findings.
+
+19F + weakness of legs + decreased reflexes + severe abdominal pain + persistent vomiting + Port wine-colored urine; Q asks, urine studies are most likely to show ↑ what? -> answer = porphobilogen; Dx is acute intermittent porphyria.
+
+Inheritance pattern of acute intermittent porphyria? -> autosomal dominant (on Step 1 NBME).
+
+44F + abdominal pain + no mention of urinary findings + paresthesias + alcohol seems to precipitate episodes; Dx? -> answer = acute intermittent porphyria; can be exacerbated by alcohol; one 2CK-level neuro Q doesn’t mention anything about pink/red urine but mentions neurologic findings.
+
+Tx for acute intermittent porphyria? -> answer = glucose infusion (acutely ↓ heme synthesis); can also give hematin + heme arginate).
+
+34F + recurrent episodes of blistering of face and arms over many years + ↑ serum ALT and AST + ↑ total serum porphyrin + ↑ urine uroporphyrin III; Dx? -> answer = porphyria cutanea tarda -> heme synthesis disorder caused by deficiency of uroporphyrinogen III decarboxylase -> ↑ urinary uroporphyrin; causes “tea-colored urine” and photosensitivity (i.e., blistering).
+
+Tx for porphyria cutanea tarda? -> answer = ↓ alcohol use (can precipitate Sx) + ↓ sun exposure.
+
+29M from Albania + positive PPD test + negative CXR + started on monotherapy for condition + develops paresthesias months later; which other finding might be seen in this patient? -> answer = impairment of heme synthesis -> patient being treated with isoniazid (INH) for latent TB -> INH causes vitamin B6 deficiency if not supplemented -> presents as neuropathy and/or seizures. Vitamin B6 is needed for the first step of heme synthesis.
+
+2M + cognitive decline after family moves into new house; what does the smear show?
+
+Answer = basophilic stippling (RNA precipitates) seen in lead poisoning.
+
+32M + red urine sometimes when waking in the morning; Dx? -> answer = paroxysmal nocturnal hemoglobinuria (PNH).
+
+Mechanism for PNH? -> increased complement-mediated hemolysis caused by deficiency of CD55/59 + deficiency of GPI anchor, which protect RBCs from complement-mediated breakdown.
+
+Tx for PNH? -> eculizumab -> monoclonal Ab against complement protein C5.
+
+Inheritance pattern for hereditary spherocytosis? -> answer = autosomal dominant.
+
+Mechanism for spherocytosis? -> answer = deficiency of ankyrin, spectrin, and/or band proteins -> results in cytoskeletal disruption and smaller, more spherical RBCs -> Qs will sometimes merely have “cytoskeleton” as the answer.
+
+Notable hematologic parameter in spherocytosis? -> answer = ↑ MCHC (mean corpuscular hemoglobin concentration) -> only time on USMLE you’ll see this variable ↑, however do not choose.
+
+How to Dx spherocytosis? -> answer = osmotic fragility test; if negative answer = eosin-5-maleimide test; the latter is a newer flow cytometry test and is now showing up; osmotic fragility test is the next best step if you’re forced to pick between the two, but it can miss up to 25% of cases.
+
+12M + viral infection + spherocytes seen on blood smear + Coombs test positive; Dx? -> answer = hemolytic anemia; wrong answer is hereditary spherocytosis; student immediately says, “Omg erratum!” It’s not. Chill the fuck out for two seconds. You can get spherocytes in drug-/infection induced hemolytic anemia -> autoantibodies cross-reacting with RBCs (type II hypersensitivity); the key is seeing that the Coombs test is positive in drug-/infection-induced spherocytosis because the patient has antibodies against RBCs; in contrast, hereditary spherocytosis has zero to do with antibodies; it’s a cytoskeletal problem; so of course the Coombs test is negative. Bottom line: yes, you can get spherocytes in things other than spherocytosis, namely drug-/infection-induced AIHA.
+
+12M + viral infection + spherocytes seen on blood smear + Coombs test negative; Dx? -> answer = hereditary spherocytosis.
+
+12M + treated for infection + smear is shown; Dx?
+
+Answer = glucose-6-phosphate dehydrogenase (G6PD) deficiency; left smear shows degmacytes (“bite cells”); right smear shows Heinz bodies.
+
+Mechanism for G6PD deficiency? -> G6PD needed to make NADPH, which acts as a reducing agent (i.e., counteracts oxidation) to protect RBCs -> if ↓ NADPH -> ↑ oxidation of RBCs -> RBCs prone to destruction in setting of stressors such as infection, drugs (i.e., dapsone), or foods (i.e., fava beans).
+
+Inheritance pattern of G6PD deficiency? -> answer = X-linked recessive (HY).
+
+Neonatal girl + pathologic jaundice + hemolytic disease due to enzyme deficiency; Dx? -> answer = pyruvate kinase deficiency -> second-most common cause of hereditary hemolytic anemia due to an enzyme deficiency (after G6PD deficiency); since G6PD is XR, you know in a girl it can’t be the answer.
+
+3F + failure to thrive + blood smear and enterocyte biopsy are both shown; Dx?
+
+Answer = abetalipoproteinemia; blood smear shows acanthocytes (spur cells); biopsy of enterocytes shows large, clear fat droplets due to malabsorption (apo-B48 needed for absorption from bowel).
+
+82F + found in house unconscious during summer day + body temperature is 105F + blood smear shows acanthocytes; Dx? -> answer = liver failure; abetalipoproteinemia is the wrong answer; student says wtf? -> heat stroke = end-organ failure secondary to hyperthermia; heat exhaustion = fatigue, but no end-organ failure secondary to hyperthermia; acanthocytes (aka spur cells) can be seen in both liver failure and abetalipoproteinemia; USMLE loves liver failure secondary to heat stroke as a cause of acanthocytosis.
+
+2M + SCID + requires blood transfusion for severe anemia; what kind of blood products are most appropriate? -> answer = irradiated packed red blood cells.
+
+Drugs that are both anti-platelet agents and vasodilators? -> dipyridamole + cilostazol; both mixed cAMP and cGMP phosphodiesterase inhibitors.
+
+Drugs that are direct-thrombin inhibitors? -> bivalirudin, lepirudin, dabigatran, argatroban.
+
+When are these notably the answer? -> once again, for Tx of HIT.
+
+MOA of apixaban? -> direct factor Xa inhibitor.
+
+Important fibrinolytic? -> tPA -> used for ischemic stroke within 3-4.5 hours. Streptokinase also fibrinolytic.
+
+Notable use of erlotinib? -> non-small cell lung cancer (for some reason USMLE cares). - MOA of cetuximab? -> monoclonal Ab against EGFR. breast tissue and are agonists on bone, but only tamoxifen is partial agonist on endometrium (↑ risk of endometrial cancer with tamoxifen).
+
+MOA of irinotecan/topotecan? -> topoisomerase I inhibitors.
+
+MOA of etoposide/teniposide? -> topoisomerase II inhibitors.
+
+MOA of cyclosporin? -> antagonist at cyclophilin receptor -> decreases intracellular calcineurin -> decreases IL-2 transcription -> decreases T cell function.
+
+MOA of sirolimus -> antagonist at mTOR -> does not decrease intracellular calcineurin -> decreases responsiveness to IL-2 -> decreases T cell function.
+
+MEHLNMEDICAL.COM 79.
+

@@ -1,0 +1,22 @@
+Answer = hemolytic uremic syndrome (HUS); presents with triad of:.
+
+2) hemolytic anemia with schistocytes (above smear); and.
+
+Mechanism of HUS? -> E. coli (EHEC O157:H7) and Shigella both secrete toxins (Shiga-like toxin and Shiga toxin, respectively) that cause inflammation of renal microvasculature -> ADAMTS13 protein inactivation -> failure of cleavage of vWF multimers -> platelet adherence to vascular endothelium cannot be as readily reversed -> platelet aggregations protrude into vascular lumen causing shearing of RBCs flying past -> fragmentation of RBCs (schistocytes, aka helmet cells).
+
+34F + epistaxis + platelet count 80,000 + low Hb + muscle strength 3/5 on left side of body + temperature 101.2F; Dx? -> answer = thrombotic thrombocytopenic purpura (TTP) -> presents with.
+
+“Can you explain TTP? I always mix that up with ITP.” -> TTP is thrombotic thrombocytopenic purpura; caused by antibodies against, or a mutation in, a protein called ADAMTS13, which is a metalloproteinase that breaks down von Willebrand factor multimers. The presentation will classically be a pentad of 1) thrombocytopenia; 2) schistocytosis; 3) renal insufficiency; 4) fever; 5) neurologic signs. The combination of thrombocytopenia + schistocytosis = microangiopathic hemolytic anemia (MAHA).
+
+34F + epistaxis + platelet count 80,000 + low Hb + muscle strength 3/5 on left side of body + temperature 101.2F; Dx? -> answer = TTP; at first you’re like, “Is this a stroke? What’s going on here?” This is how it presents on the NBME. The low hemoglobin is due to the fragmentation of the RBCs leading to schistocytosis.
+
+“What do you mean fragmentation of RBCs leading to schistocytosis?” -> schistocytes are caused by the fragmentation/shearing of RBCs intravascularly. TTP is one of the common causes. The others are hemolytic uremic syndrome (HUS), DIC, HELLP syndrome in pregnancy, and mechanical hemolysis (prosthetic heart valves).
+
+“Can you explain HUS? And I confuse it sometimes with TTP.” -> therefore the combination of thrombocytopenia + schistocytosis (often seen in a Q as a combo of low platelets + low Hb + normal WBC count) should set off alarm bells for HUS and TTP. Because this process occurs in microvasculature, this is why the combo of thrombocytopenia and schistocytosis is referred to as microangiopathic hemolytic anemia (MAHA). Other HY points:.
+
+Whereas TTP presents with a pentad of 1) thrombocytopenia; 2) schistocytosis; 3) renal insufficiency; 4) fever; 5) neurologic signs, HUS presents with just the first three. Therefore: o TTP = HUS + fever and neurologic signs.
+
+HUS will classically be pediatric + bloody diarrhea (EHEC or Shigella); TTP will usually be an adult who presents with fever and stroke-like Sx + who also has the triad you’d expect to see in HUS. The tricky thing about TTP is that episodes can be triggered by various etiologies, such as viral infection, but the vignette will not give bloody diarrhea.
+
+Tx for HUS is supportive with intravenous fluids; Tx for TTP is plasmapheresis.
+
