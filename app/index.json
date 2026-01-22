@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T18:41:22.726Z",
+  "generatedAt": "2026-01-22T18:42:50.763Z",
   "systems": {
     "hematology": {
       "anemia_of_chronic_disease": {
@@ -213,6 +213,18 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Genetic Disorders/trinucleotide_disorders.txt"
+          ],
+          "images": []
+        }
+      }
+    },
+    "Hematologic Neoplasms": {
+      "acute_leukemias": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Hematologic Neoplasms/acute_leukemias.txt"
           ],
           "images": []
         }
