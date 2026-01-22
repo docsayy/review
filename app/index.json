@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-22T20:22:57.139Z",
+  "generatedAt": "2026-01-22T20:23:22.098Z",
   "systems": {
     "CNS": {
       "cerebrovascular": {
@@ -1151,6 +1151,16 @@
           "images": []
         }
       },
+      "hair_nail": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Skin/hair_nail.txt"
+          ],
+          "images": []
+        }
+      },
       "infectious_skin": {
         "sources": {
           "quick": [],
@@ -1187,6 +1197,16 @@
           "firstaid": [],
           "pathoma": [
             "pathoma/Skin/skin_structure.txt"
+          ],
+          "images": []
+        }
+      },
+      "skin_tumors": {
+        "sources": {
+          "quick": [],
+          "firstaid": [],
+          "pathoma": [
+            "pathoma/Skin/skin_tumors.txt"
           ],
           "images": []
         }
