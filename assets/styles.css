@@ -1,0 +1,189 @@
+:root{
+  --bg:#0b0f14;
+  --panel:#101826;
+  --text:#eaf1ff;
+  --muted:rgba(234,241,255,.72);
+  --stroke:rgba(255,255,255,.12);
+  --card:rgba(255,255,255,.06);
+  --accent:#6ee7ff;
+
+  --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+  --readerSize: 19px;
+  --maxw: 980px;
+}
+
+[data-theme="light"]{
+  --bg:#f7f8fb;
+  --panel:#ffffff;
+  --text:#121826;
+  --muted:rgba(18,24,38,.70);
+  --stroke:rgba(18,24,38,.12);
+  --card:rgba(18,24,38,.05);
+  --accent:#0066ff;
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--font);
+}
+
+.topbar{
+  position:sticky; top:0; z-index:50;
+  display:flex; align-items:center; gap:10px;
+  padding:10px 12px;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom:1px solid var(--stroke);
+}
+.brand{ font-weight:800; letter-spacing:.2px; }
+.spacer{ flex:1; }
+
+.iconbtn{
+  border:1px solid var(--stroke);
+  background:var(--card);
+  color:var(--text);
+  border-radius:14px;
+  padding:8px 10px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.main{
+  height: calc(100% - 56px);
+  overflow:auto;
+}
+
+.welcome{
+  max-width: var(--maxw);
+  margin: 18px auto;
+  padding: 0 14px;
+}
+
+.reader{
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 18px 14px 80px;
+  font-size: var(--readerSize);
+  line-height: 1.7;
+  display:none;
+}
+
+.reader h1{ font-size: 1.5em; margin: 6px 0 10px; }
+.reader h2{ margin-top: 1.2em; }
+.reader img{
+  width:100%;
+  height:auto;
+  border-radius:18px;
+  border:1px solid var(--stroke);
+}
+.reader figure{ margin: 14px 0; }
+.reader figcaption{ color:var(--muted); font-size:.9em; margin-top:8px; }
+.reader a{ color: color-mix(in srgb, var(--accent) 70%, var(--text)); }
+.reader hr{ border:none; border-top:1px solid var(--stroke); margin: 18px 0; }
+
+.muted{ color:var(--muted); }
+
+/* Drawer / Settings */
+.drawer, .settings{
+  position:fixed; top:0; bottom:0;
+  width:min(380px, 92vw);
+  background:var(--panel);
+  border-right:1px solid var(--stroke);
+  z-index:80;
+  transform: translateX(-110%);
+  transition: transform .18s ease;
+  display:flex; flex-direction:column;
+}
+.settings{
+  right:0; left:auto;
+  border-right:none;
+  border-left:1px solid var(--stroke);
+  transform: translateX(110%);
+}
+
+.drawer.open{ transform: translateX(0); }
+.settings.open{ transform: translateX(0); }
+
+.drawerHead{
+  display:flex; align-items:center; justify-content:space-between;
+  padding:12px;
+  border-bottom:1px solid var(--stroke);
+}
+.drawerTitle{ font-weight:800; }
+
+.drawerTools{ padding:10px 12px; border-bottom:1px solid var(--stroke); }
+.search{
+  width:100%;
+  border:1px solid var(--stroke);
+  background:var(--card);
+  color:var(--text);
+  border-radius:14px;
+  padding:10px 12px;
+  outline:none;
+}
+.search::placeholder{ color: color-mix(in srgb, var(--muted) 80%, transparent); }
+
+.nav{ padding:10px 10px 18px; overflow:auto; }
+.groupTitle{
+  margin:14px 8px 8px;
+  color:var(--muted);
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+.navItem{
+  display:block;
+  width:100%;
+  text-align:left;
+  padding:10px 10px;
+  border-radius:14px;
+  border:1px solid transparent;
+  background:transparent;
+  color:var(--text);
+  cursor:pointer;
+}
+.navItem:hover{ background:var(--card); border-color:var(--stroke); }
+.navItem.active{
+  background: color-mix(in srgb, var(--accent) 14%, var(--card));
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--stroke));
+}
+.navItem .sub{ display:block; color:var(--muted); font-size:12px; margin-top:2px; }
+
+.settingsBody{ padding:12px; display:flex; flex-direction:column; gap:16px; }
+.row{ display:flex; flex-direction:column; gap:8px; }
+.label{ font-weight:700; }
+.seg{ display:flex; gap:10px; }
+.segbtn{
+  flex:1;
+  border:1px solid var(--stroke);
+  background:var(--card);
+  color:var(--text);
+  border-radius:14px;
+  padding:10px 12px;
+  cursor:pointer;
+}
+.segbtn.active{
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--stroke));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 25%, transparent) inset;
+}
+
+.btnDanger{
+  border:1px solid rgba(255,80,80,.35);
+  background: rgba(255,80,80,.10);
+  color: var(--text);
+  border-radius:14px;
+  padding:10px 12px;
+  cursor:pointer;
+}
+
+/* Highlights */
+mark.hl{
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: inherit;
+  padding: .05em .15em;
+  border-radius: .35em;
+}
