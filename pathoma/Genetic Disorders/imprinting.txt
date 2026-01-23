@@ -1,9 +1,0 @@
-Genomic imprinting is parent-of-origin specific gene expression.
-
-DNA methylation silences imprinted genes.
-
-Loss of imprinting causes disease.
-
-Prader-Willi syndrome results from loss of paternal genes on chromosome 15.
-
-Angelman syndrome results from loss of maternal genes on chromosome 15.

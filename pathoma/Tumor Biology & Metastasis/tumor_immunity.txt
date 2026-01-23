@@ -1,9 +1,0 @@
-The immune system recognizes tumor antigens.
-
-CD8 T cells kill tumor cells via perforin and granzyme.
-
-Tumors evade immunity by downregulating MHC I.
-
-Tumors secrete immunosuppressive cytokines.
-
-Checkpoint molecules inhibit anti-tumor T cell activity.

@@ -1,9 +1,0 @@
-Acute liver failure presents with jaundice and coagulopathy.
-
-Chronic liver failure presents with ascites and encephalopathy.
-
-Hepatic encephalopathy is caused by accumulation of ammonia.
-
-Ammonia is produced by intestinal bacteria.
-
-Asterixis is a sign of hepatic encephalopathy.
