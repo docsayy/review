@@ -1,118 +1,74 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Review Deck</title>
-  <link rel="stylesheet" href="app/styles.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Study Reader</title>
+  <link rel="stylesheet" href="assets/styles.css"/>
 </head>
 <body>
   <header class="topbar">
-    <div class="brand">
-      <div class="title">Review Deck</div>
-      <div class="sub" id="statusLine">Loading…</div>
-    </div>
-    <button class="iconBtn" id="settingsBtn" title="Settings">⚙️</button>
+    <button id="btnMenu" class="iconbtn" aria-label="Menu">☰</button>
+    <div class="brand">Study Reader</div>
+
+    <div class="spacer"></div>
+
+    <button id="btnHighlight" class="iconbtn" title="Highlight selected text">🖍️</button>
+    <button id="btnSettings" class="iconbtn" aria-label="Settings">⚙️</button>
   </header>
 
-  <main class="app">
-    <!-- Systems -->
-    <section id="screenSystems" class="screen">
-      <h2 class="h2">Systems</h2>
-      <div id="systemsGrid" class="grid"></div>
-    </section>
+  <!-- Drawer menu -->
+  <aside id="drawer" class="drawer" aria-hidden="true">
+    <div class="drawerHead">
+      <div class="drawerTitle">Library</div>
+      <button id="btnCloseDrawer" class="iconbtn" aria-label="Close">✕</button>
+    </div>
 
-    <!-- Topics -->
-    <section id="screenTopics" class="screen hidden">
+    <div class="drawerTools">
+      <input id="search" class="search" placeholder="Search… (source/system/title)"/>
+    </div>
+
+    <div id="nav" class="nav"></div>
+  </aside>
+
+  <!-- Settings panel -->
+  <aside id="settings" class="settings" aria-hidden="true">
+    <div class="drawerHead">
+      <div class="drawerTitle">Settings</div>
+      <button id="btnCloseSettings" class="iconbtn" aria-label="Close">✕</button>
+    </div>
+
+    <div class="settingsBody">
       <div class="row">
-        <button class="btn ghost" id="backToSystems">◀ Systems</button>
-        <div class="crumb" id="crumbSystem">—</div>
+        <div class="label">Theme</div>
+        <div class="seg">
+          <button data-theme="dark" class="segbtn">Dark</button>
+          <button data-theme="light" class="segbtn">Light</button>
+        </div>
       </div>
-      <h2 class="h2">Topics</h2>
-      <div id="topicsGrid" class="grid"></div>
-    </section>
 
-    <!-- Review -->
-    <section id="screenReview" class="screen hidden">
       <div class="row">
-        <button class="btn ghost" id="backToTopics">◀ Topics</button>
-        <div class="crumb" id="crumbTopic">—</div>
+        <div class="label">Font size</div>
+        <input id="fontSize" type="range" min="16" max="24" step="1"/>
+        <div id="fontSizeVal" class="muted"></div>
       </div>
 
-      <div class="card">
-        <div class="meta">
-          <div class="path" id="pathLine">—</div>
-          <div class="pill" id="countPill">—</div>
-        </div>
-
-        <div class="content" id="swipeSurface">
-          <div class="text" id="cardText">—</div>
-        </div>
-
-        <div class="actions">
-          <button class="btn" id="prevBtn">◀ Prev</button>
-          <button class="btn primary" id="nextBtn">Next ▶</button>
-        </div>
-
-        <div class="relatedRow">
-          <button class="btn small" id="srcQuick">Quick</button>
-          <button class="btn small" id="srcFA">First Aid</button>
-          <button class="btn small" id="srcPathoma">Pathoma</button>
-          <button class="btn small" id="imagesBtn">🖼️ Images</button>
-        </div>
-
-        <div class="hint" id="hintLine">One paragraph = one card. Swipe left/right.</div>
+      <div class="row">
+        <button id="btnClearHighlights" class="btnDanger">Clear highlights (this chapter)</button>
       </div>
-    </section>
+    </div>
+  </aside>
+
+  <!-- Reader: whole screen -->
+  <main class="main">
+    <div id="welcome" class="welcome">
+      <h1>Pick a chapter</h1>
+      <p class="muted">Menu ☰ → choose Source / System / Topic.</p>
+    </div>
+
+    <article id="reader" class="reader"></article>
   </main>
 
-  <!-- Images Overlay -->
-  <div class="overlay" id="imgOverlay" aria-hidden="true">
-    <div class="sheet">
-      <div class="sheetTop">
-        <div class="sheetTitle">
-          <b>Images</b>
-          <span id="imgSub">—</span>
-        </div>
-        <button class="btn small" id="closeImages">Close</button>
-      </div>
-      <div class="sheetBody">
-        <div class="imgFrame" id="imgSwipeSurface">
-          <img id="imgEl" alt="topic image" />
-        </div>
-        <div class="sheetNav">
-          <button class="btn" id="imgPrev">◀ Prev</button>
-          <button class="btn primary" id="imgNext">Next ▶</button>
-        </div>
-        <div class="hint smallHint" id="imgCaption">—</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Settings Overlay -->
-  <div class="overlay" id="settingsOverlay" aria-hidden="true">
-    <div class="sheet">
-      <div class="sheetTop">
-        <div class="sheetTitle">
-          <b>Settings</b>
-          <span>Theme</span>
-        </div>
-        <button class="btn small" id="closeSettings">Close</button>
-      </div>
-      <div class="sheetBody">
-        <div class="settingBlock">
-          <div class="settingLabel">Theme</div>
-          <div class="seg">
-            <button class="segBtn" data-theme="auto">Auto</button>
-            <button class="segBtn" data-theme="dark">Dark</button>
-            <button class="segBtn" data-theme="light">Light</button>
-          </div>
-          <div class="hint smallHint">Auto uses system preference + time-based night mode (7 PM–7 AM).</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="app/app.js"></script>
+  <script src="assets/app.js"></script>
 </body>
 </html>
