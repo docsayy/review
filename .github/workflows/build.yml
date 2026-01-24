@@ -22,8 +22,18 @@ jobs:
       - name: Install pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
-      - name: Build site (index.json + build/)
+      - name: Build site (generates index.json + build/)
         run: node tools/build.js
+
+      # DEBUG: prove index.json exists before upload
+      - name: Verify outputs
+        run: |
+          echo "=== ROOT FILES ==="
+          ls -la
+          echo "=== build/ ==="
+          ls -la build || true
+          echo "=== index.json preview ==="
+          test -f index.json && head -n 5 index.json || (echo "index.json NOT FOUND" && exit 1)
 
       - name: Upload Pages artifact (root)
         uses: actions/upload-pages-artifact@v3
